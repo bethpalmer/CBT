@@ -1,0 +1,1138 @@
+0000.000 (0) Opened log file at time: Thu, 26 Apr 2018 11:41:56 +0000 on http://localhost:8888/CHRAVE1
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.5 PHP: 7.1.6 (apache2handler, Darwin MacBook-Pro.local 15.6.0 Darwin Kernel Version 15.6.0: Tue Jan 30 11:45:51 PST 2018; root:xnu-3248.73.8~1/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.6 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 268435456 (used: 32.8M | 40M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 7935.2 MB
+0000.005 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.005 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.008 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1521711293, seconds_ago=3031623)
+0000.010 (0) Set semaphore last lock (fd) time to 2018-04-26 11:41:56
+0000.011 (0) Semaphore lock (fd) complete
+0000.015 (0) Backup run: resumption=0, nonce=f1e34f4c815a, begun at=1524742916 (0s ago), job type=backup
+0000.017 (0) Scheduling a resumption (1) after 300 seconds (1524743216) in case this run gets aborted
+0000.030 (0) Checking if we have a zip executable available
+0000.031 (0) Testing: /usr/bin/zip
+0000.040 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.041 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.043 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.044 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.045 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.054 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.056 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.067 (0) Working binary zip found: /usr/bin/zip
+0000.069 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.070 (0) Creation of backups of directories: beginning
+0000.074 (0) Beginning creation of dump of plugins (split every: 25 MB)
+0000.193 (0) Total entities for the zip file: 561 directories, 4421 files (0 skipped as non-modified), 61.8 MB
+0000.198 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.202 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.209 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.213 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.219 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.221 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.9 MB, 4421 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.402 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: size is now: 1.20 MB
+0000.408 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 600 files added (on-disk size: 1273.3 KB)
+0000.413 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 700 files added (on-disk size: 1273.3 KB)
+0000.417 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 800 files added (on-disk size: 1273.3 KB)
+0000.421 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 900 files added (on-disk size: 1273.3 KB)
+0000.426 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 1000 files added (on-disk size: 1273.3 KB)
+0000.427 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.8 MB, 4421 files batched, 501 (1002) added so far); re-opening (prior size: 1273.3 KB)
+0000.698 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: size is now: 2.90 MB
+0000.705 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 1100 files added (on-disk size: 2918.9 KB)
+0000.709 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 1200 files added (on-disk size: 2918.9 KB)
+0000.714 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 1300 files added (on-disk size: 2918.9 KB)
+0000.718 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 1400 files added (on-disk size: 2918.9 KB)
+0000.723 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 1500 files added (on-disk size: 2918.9 KB)
+0000.724 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18.9 MB, 4421 files batched, 501 (1503) added so far); re-opening (prior size: 2918.9 KB)
+0001.555 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: size is now: 8.20 MB
+0001.563 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 1600 files added (on-disk size: 8374.9 KB)
+0001.569 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 1700 files added (on-disk size: 8374.9 KB)
+0001.574 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 1800 files added (on-disk size: 8374.9 KB)
+0001.579 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 1900 files added (on-disk size: 8374.9 KB)
+0001.584 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 2000 files added (on-disk size: 8374.9 KB)
+0001.585 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 4421 files batched, 501 (2004) added so far); re-opening (prior size: 8374.9 KB)
+0001.730 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 2100 files added (on-disk size: 9108.9 KB)
+0001.735 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 2200 files added (on-disk size: 9108.9 KB)
+0001.740 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 2300 files added (on-disk size: 9108.9 KB)
+0001.745 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 2400 files added (on-disk size: 9108.9 KB)
+0001.749 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 2500 files added (on-disk size: 9108.9 KB)
+0001.751 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 4421 files batched, 501 (2505) added so far); re-opening (prior size: 9108.9 KB)
+0001.939 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 2600 files added (on-disk size: 10087.9 KB)
+0001.944 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 2700 files added (on-disk size: 10087.9 KB)
+0001.950 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 2800 files added (on-disk size: 10087.9 KB)
+0001.954 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 2900 files added (on-disk size: 10087.9 KB)
+0001.959 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 3000 files added (on-disk size: 10087.9 KB)
+0001.960 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 MB, 4421 files batched, 501 (3006) added so far); re-opening (prior size: 10087.9 KB)
+0002.153 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 3100 files added (on-disk size: 11114.3 KB)
+0002.159 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 3200 files added (on-disk size: 11114.3 KB)
+0002.165 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 3300 files added (on-disk size: 11114.3 KB)
+0002.170 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 3400 files added (on-disk size: 11114.3 KB)
+0002.176 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 3500 files added (on-disk size: 11114.3 KB)
+0002.177 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 MB, 4421 files batched, 501 (3507) added so far); re-opening (prior size: 11114.3 KB)
+0002.464 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 3600 files added (on-disk size: 12505.2 KB)
+0002.469 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 3700 files added (on-disk size: 12505.2 KB)
+0002.473 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 3800 files added (on-disk size: 12505.2 KB)
+0002.478 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 3900 files added (on-disk size: 12505.2 KB)
+0002.482 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 4000 files added (on-disk size: 12505.2 KB)
+0002.484 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.7 MB, 4421 files batched, 501 (4008) added so far); re-opening (prior size: 12505.2 KB)
+0003.073 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: size is now: 18.70 MB
+0003.080 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 4100 files added (on-disk size: 19168 KB)
+0003.084 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip.tmp: 4200 files added (on-disk size: 19168 KB)
+0003.086 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (10.2 MB, 212 (4220) files added so far); last ratio: 0.5583; re-opening (prior size: 19168 KB)
+0003.614 (0) Zip size is at/near split limit (21.6 MB / 25 MB) - bumping index (from: 0)
+0004.401 (0) Created plugins zip (0) - 22088.5 KB in 3.5 s (6240.3 KB/s) (checksums: sha1: c662e464c4aaa9a14aa4d8c6e063ba164470b72e, sha256: f7bbb3fe1c67a680bed9dd42cd46f39b4ac4b4f70f79d85bd766d1707f130b51)
+0004.410 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins2.zip.tmp: 4300 files added (on-disk size: 0 KB)
+0004.420 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins2.zip.tmp: 4400 files added (on-disk size: 0 KB)
+0004.578 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins2.zip.tmp: size is now: 1.50 MB
+0004.643 (0) Created plugins zip (1) - 1490.9 KB in 0.2 s (6255.2 KB/s) (sha1: 53e10b4fb58e8df2ceda00a9302da60b4d3c2045, sha256: 5cf788c72d10d39ffc0e771a4c3550043088bb73f3daaeaa1965b92f2d89facf)
+0004.646 (0) Beginning creation of dump of themes (split every: 25 MB)
+0004.688 (0) Total entities for the zip file: 101 directories, 1048 files (0 skipped as non-modified), 6.4 MB
+0004.695 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.703 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0004.710 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0004.714 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0004.721 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0004.723 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 1048 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0004.979 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-themes.zip.tmp: size is now: 1.70 MB
+0005.003 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-themes.zip.tmp: 600 files added (on-disk size: 1701.4 KB)
+0005.010 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-themes.zip.tmp: 700 files added (on-disk size: 1701.4 KB)
+0005.017 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-themes.zip.tmp: 800 files added (on-disk size: 1701.4 KB)
+0005.025 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-themes.zip.tmp: 900 files added (on-disk size: 1701.4 KB)
+0005.032 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-themes.zip.tmp: 1000 files added (on-disk size: 1701.4 KB)
+0005.036 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.8 MB, 1048 files batched, 501 (1002) added so far); re-opening (prior size: 1701.4 KB)
+0005.306 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-themes.zip.tmp: size is now: 3.30 MB
+0005.436 (0) Created themes zip (0) - 3504.6 KB in 0.8 s (4445.5 KB/s) (sha1: c72eb8d4a6e37cfbf6cb891958db3aa1babdfc0a, sha256: 732af422a5ce31eb237652449c4e150786658d5ceaedb142413ffa95829a7d78)
+0005.439 (0) Exclusion option setting (uploads): 
+0005.440 (0) Looking for candidates to back up in: /Users/Beth/Sites/wordpress/CHRAVE1/wp-content/uploads
+0005.441 (0) finding files: 2012: adding to list (1)
+0005.442 (0) finding files: 2013: adding to list (2)
+0005.443 (0) finding files: 2014: adding to list (3)
+0005.444 (0) finding files: 2015: adding to list (4)
+0005.444 (0) finding files: 2016: adding to list (5)
+0005.445 (0) finding files: 2017: adding to list (6)
+0005.446 (0) finding files: 2018: adding to list (7)
+0005.447 (0) finding files: _notes: adding to list (8)
+0005.448 (0) finding files: author-image: adding to list (9)
+0005.449 (0) finding files: ftlogo.gif: adding to list (10)
+0005.450 (0) finding files: slp: adding to list (11)
+0005.451 (0) Beginning creation of dump of uploads (split every: 25 MB)
+0006.049 (0) Total entities for the zip file: 81 directories, 9196 files (0 skipped as non-modified), 205.1 MB
+0006.054 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0006.059 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0006.063 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0006.068 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0006.072 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0006.074 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.5 MB, 9196 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0006.308 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads.zip.tmp: size is now: 13.60 MB
+0006.315 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads.zip.tmp: 600 files added (on-disk size: 13905.5 KB)
+0006.320 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads.zip.tmp: 700 files added (on-disk size: 13905.5 KB)
+0006.325 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads.zip.tmp: 800 files added (on-disk size: 13905.5 KB)
+0006.329 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads.zip.tmp: 900 files added (on-disk size: 13905.5 KB)
+0006.334 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads.zip.tmp: 1000 files added (on-disk size: 13905.5 KB)
+0006.335 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.7 MB, 9196 files batched, 501 (1002) added so far); re-opening (prior size: 13905.5 KB)
+0006.544 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads.zip.tmp: size is now: 22.40 MB
+0006.552 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads.zip.tmp: 1100 files added (on-disk size: 22898.8 KB)
+0006.555 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (2.4 MB, 143 (1145) files added so far); last ratio: 1; re-opening (prior size: 22898.8 KB)
+0006.680 (0) Zip size is at/near split limit (24.8 MB / 25 MB) - bumping index (from: 0)
+0007.334 (0) Created uploads zip (0) - 25419.2 KB in 1.2 s (20689.8 KB/s) (checksums: sha1: f4ee64e6944072875ab49c420df3dbcf75a5f2b5, sha256: 43a855cdcd462e5176b4269d68557071b3bced7666ca7bf1949387956c4ccb6b)
+0007.338 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads2.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0007.344 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads2.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0007.348 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads2.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0007.353 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads2.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0007.358 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads2.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0007.361 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17.6 MB, 9196 files batched, 501 (1646) added so far); re-opening (prior size: 0 KB)
+0007.648 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads2.zip.tmp: size is now: 17.70 MB
+0007.655 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads2.zip.tmp: 1700 files added (on-disk size: 18165.7 KB)
+0007.661 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads2.zip.tmp: 1800 files added (on-disk size: 18165.7 KB)
+0007.666 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads2.zip.tmp: 1900 files added (on-disk size: 18165.7 KB)
+0007.672 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (6.6 MB, 345 (1991) files added so far); last ratio: 1; re-opening (prior size: 18165.7 KB)
+0007.895 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads2.zip.tmp: size is now: 24.40 MB
+0007.899 (0) Zip size is at/near split limit (24.4 MB / 25 MB) - bumping index (from: 1)
+0008.531 (0) Created uploads zip (1) - 25026.7 KB in 0.6 s (44220.7 KB/s) (checksums: sha1: f4f5bbcd3646d1068dfbac11daa76dd2c1dd2ff9, sha256: cd8aeac348cf0a906a153a98f7f1d1ecf9b2dd386508392f0e0aace6dffd3354)
+0008.534 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads3.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0008.538 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads3.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0008.542 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads3.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0008.546 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads3.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0008.551 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads3.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0008.555 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.7 MB, 9196 files batched, 501 (2492) added so far); re-opening (prior size: 0 KB)
+0008.800 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads3.zip.tmp: size is now: 11.80 MB
+0008.805 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads3.zip.tmp: 2500 files added (on-disk size: 12101 KB)
+0008.810 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads3.zip.tmp: 2600 files added (on-disk size: 12101 KB)
+0008.815 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads3.zip.tmp: 2700 files added (on-disk size: 12101 KB)
+0008.824 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads3.zip.tmp: 2800 files added (on-disk size: 12101 KB)
+0008.829 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads3.zip.tmp: 2900 files added (on-disk size: 12101 KB)
+0008.832 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (12 MB, 446 (2938) files added so far); last ratio: 1; re-opening (prior size: 12101 KB)
+0009.132 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads3.zip.tmp: size is now: 23.90 MB
+0009.140 (0) Zip size is at/near split limit (23.9 MB / 25 MB) - bumping index (from: 2)
+0009.808 (0) Created uploads zip (2) - 24489 KB in 0.6 s (40106.5 KB/s) (checksums: sha1: 2af55a15f36ff5dba7cd89a3c687c75f98c8617c, sha256: 33ff778c035f2ea62bf12f6c7e0784e3593b95129b6d9cd0a3404c29d64dcb10)
+0009.813 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip.tmp: 3000 files added (on-disk size: 0 KB)
+0009.819 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip.tmp: 3100 files added (on-disk size: 0 KB)
+0009.827 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip.tmp: 3200 files added (on-disk size: 0 KB)
+0009.834 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip.tmp: 3300 files added (on-disk size: 0 KB)
+0009.843 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip.tmp: 3400 files added (on-disk size: 0 KB)
+0009.845 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.8 MB, 9196 files batched, 501 (3439) added so far); re-opening (prior size: 0 KB)
+0010.084 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip.tmp: size is now: 9.90 MB
+0010.091 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip.tmp: 3500 files added (on-disk size: 10177.6 KB)
+0010.096 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip.tmp: 3600 files added (on-disk size: 10177.6 KB)
+0010.101 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip.tmp: 3700 files added (on-disk size: 10177.6 KB)
+0010.110 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip.tmp: 3800 files added (on-disk size: 10177.6 KB)
+0010.115 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip.tmp: 3900 files added (on-disk size: 10177.6 KB)
+0010.119 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.4 MB, 9196 files batched, 501 (3940) added so far); re-opening (prior size: 10177.6 KB)
+0010.402 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip.tmp: size is now: 17.40 MB
+0010.413 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip.tmp: 4000 files added (on-disk size: 17820.4 KB)
+0010.419 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip.tmp: 4100 files added (on-disk size: 17820.4 KB)
+0010.426 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip.tmp: 4200 files added (on-disk size: 17820.4 KB)
+0010.431 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip.tmp: 4300 files added (on-disk size: 17820.4 KB)
+0010.439 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip.tmp: 4400 files added (on-disk size: 17820.4 KB)
+0010.443 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.7 MB, 9196 files batched, 501 (4441) added so far); re-opening (prior size: 17820.4 KB)
+0010.739 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip.tmp: size is now: 23.20 MB
+0010.748 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip.tmp: 4500 files added (on-disk size: 23775.2 KB)
+0010.751 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (1.8 MB, 105 (4546) files added so far); last ratio: 1; re-opening (prior size: 23775.2 KB)
+0010.899 (0) Zip size is at/near split limit (25.1 MB / 25 MB) - bumping index (from: 3)
+0011.759 (0) Created uploads zip (3) - 25656.7 KB in 1.1 s (23507 KB/s) (checksums: sha1: 6b96393028317b03675cad9fcb9130d9373d72ae, sha256: 1f1c0f7f2633440356b7295693d51f10c5b1a1c4f5a3c2dd33dd16d3d3a47f96)
+0011.765 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads5.zip.tmp: 4600 files added (on-disk size: 0 KB)
+0011.769 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads5.zip.tmp: 4700 files added (on-disk size: 0 KB)
+0011.775 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads5.zip.tmp: 4800 files added (on-disk size: 0 KB)
+0011.780 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads5.zip.tmp: 4900 files added (on-disk size: 0 KB)
+0011.784 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads5.zip.tmp: 5000 files added (on-disk size: 0 KB)
+0011.787 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15 MB, 9196 files batched, 501 (5047) added so far); re-opening (prior size: 0 KB)
+0012.021 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads5.zip.tmp: size is now: 15.10 MB
+0012.026 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads5.zip.tmp: 5100 files added (on-disk size: 15492 KB)
+0012.031 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads5.zip.tmp: 5200 files added (on-disk size: 15492 KB)
+0012.035 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads5.zip.tmp: 5300 files added (on-disk size: 15492 KB)
+0012.039 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (9.4 MB, 344 (5391) files added so far); last ratio: 1; re-opening (prior size: 15492 KB)
+0012.234 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads5.zip.tmp: size is now: 24.60 MB
+0012.238 (0) Zip size is at/near split limit (24.6 MB / 25 MB) - bumping index (from: 4)
+0012.885 (0) Created uploads zip (4) - 25151.4 KB in 0.5 s (52515 KB/s) (checksums: sha1: 12a7e9e7f49718e59eb92a2f692095c4e773268d, sha256: 6f052e7c1163a5caa08af89e7633627901f5990268418bd3ee2f55b0daa44790)
+0012.888 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads6.zip.tmp: 5400 files added (on-disk size: 0 KB)
+0012.892 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads6.zip.tmp: 5500 files added (on-disk size: 0 KB)
+0012.897 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads6.zip.tmp: 5600 files added (on-disk size: 0 KB)
+0012.901 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads6.zip.tmp: 5700 files added (on-disk size: 0 KB)
+0012.905 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads6.zip.tmp: 5800 files added (on-disk size: 0 KB)
+0012.910 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.7 MB, 9196 files batched, 501 (5892) added so far); re-opening (prior size: 0 KB)
+0013.115 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads6.zip.tmp: size is now: 14.80 MB
+0013.119 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads6.zip.tmp: 5900 files added (on-disk size: 15168.7 KB)
+0013.124 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads6.zip.tmp: 6000 files added (on-disk size: 15168.7 KB)
+0013.128 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads6.zip.tmp: 6100 files added (on-disk size: 15168.7 KB)
+0013.133 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads6.zip.tmp: 6200 files added (on-disk size: 15168.7 KB)
+0013.137 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads6.zip.tmp: 6300 files added (on-disk size: 15168.7 KB)
+0013.141 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 9196 files batched, 501 (6393) added so far); re-opening (prior size: 15168.7 KB)
+0013.333 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads6.zip.tmp: size is now: 21.60 MB
+0013.337 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads6.zip.tmp: 6400 files added (on-disk size: 22087.8 KB)
+0013.341 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads6.zip.tmp: 6500 files added (on-disk size: 22087.8 KB)
+0013.346 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads6.zip.tmp: 6600 files added (on-disk size: 22087.8 KB)
+0013.349 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (3.2 MB, 274 (6667) files added so far); last ratio: 1; re-opening (prior size: 22087.8 KB)
+0013.510 (0) Zip size is at/near split limit (24.8 MB / 25 MB) - bumping index (from: 5)
+0014.194 (0) Created uploads zip (5) - 25424.8 KB in 0.6 s (40685.8 KB/s) (checksums: sha1: 35acd0e47d305232bac7748fd24f354b3d68ad12, sha256: 70b9a8f580abe4602ef2a16850b1858962b95a5e3f183404864bc33fa17f4dee)
+0014.197 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads7.zip.tmp: 6700 files added (on-disk size: 0 KB)
+0014.202 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads7.zip.tmp: 6800 files added (on-disk size: 0 KB)
+0014.206 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads7.zip.tmp: 6900 files added (on-disk size: 0 KB)
+0014.211 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads7.zip.tmp: 7000 files added (on-disk size: 0 KB)
+0014.215 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads7.zip.tmp: 7100 files added (on-disk size: 0 KB)
+0014.218 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.6 MB, 9196 files batched, 501 (7168) added so far); re-opening (prior size: 0 KB)
+0014.431 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads7.zip.tmp: size is now: 9.60 MB
+0014.441 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads7.zip.tmp: 7200 files added (on-disk size: 9858.1 KB)
+0014.448 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads7.zip.tmp: 7300 files added (on-disk size: 9858.1 KB)
+0014.456 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads7.zip.tmp: 7400 files added (on-disk size: 9858.1 KB)
+0014.463 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads7.zip.tmp: 7500 files added (on-disk size: 9858.1 KB)
+0014.468 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads7.zip.tmp: 7600 files added (on-disk size: 9858.1 KB)
+0014.472 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5 MB, 9196 files batched, 501 (7669) added so far); re-opening (prior size: 9858.1 KB)
+0014.642 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads7.zip.tmp: size is now: 14.70 MB
+0014.647 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads7.zip.tmp: 7700 files added (on-disk size: 15069.3 KB)
+0014.652 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads7.zip.tmp: 7800 files added (on-disk size: 15069.3 KB)
+0014.656 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads7.zip.tmp: 7900 files added (on-disk size: 15069.3 KB)
+0014.661 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads7.zip.tmp: 8000 files added (on-disk size: 15069.3 KB)
+0014.665 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (9.4 MB, 423 (8092) files added so far); last ratio: 1; re-opening (prior size: 15069.3 KB)
+0014.884 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads7.zip.tmp: size is now: 24.10 MB
+0014.887 (0) Zip size is at/near split limit (24.1 MB / 25 MB) - bumping index (from: 6)
+0015.525 (0) Created uploads zip (6) - 24724.2 KB in 0.7 s (35643.2 KB/s) (checksums: sha1: 902725196a151d45af92f11c5e4687aa89726635, sha256: d1b4c2232ccfb1abe0415d19a9829e3a10fc96e6ee2eab548d09e80157f5af3c)
+0015.529 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads8.zip.tmp: 8100 files added (on-disk size: 0 KB)
+0015.534 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads8.zip.tmp: 8200 files added (on-disk size: 0 KB)
+0015.539 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads8.zip.tmp: 8300 files added (on-disk size: 0 KB)
+0015.543 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads8.zip.tmp: 8400 files added (on-disk size: 0 KB)
+0015.549 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads8.zip.tmp: 8500 files added (on-disk size: 0 KB)
+0015.553 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.8 MB, 9196 files batched, 501 (8593) added so far); re-opening (prior size: 0 KB)
+0015.784 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads8.zip.tmp: size is now: 9.90 MB
+0015.791 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads8.zip.tmp: 8600 files added (on-disk size: 10134.8 KB)
+0015.798 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads8.zip.tmp: 8700 files added (on-disk size: 10134.8 KB)
+0015.804 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads8.zip.tmp: 8800 files added (on-disk size: 10134.8 KB)
+0015.811 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads8.zip.tmp: 8900 files added (on-disk size: 10134.8 KB)
+0015.814 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (13.7 MB, 340 (8933) files added so far); last ratio: 1; re-opening (prior size: 10134.8 KB)
+0016.060 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads8.zip.tmp: size is now: 23.70 MB
+0016.064 (0) Zip size is at/near split limit (23.7 MB / 25 MB) - bumping index (from: 7)
+0016.751 (0) Created uploads zip (7) - 24270.2 KB in 0.5 s (45038.3 KB/s) (checksums: sha1: ed6601ace5f7af26e8142ea302948118b5e249cd, sha256: 26f1ad25c364ab162b6c2000cd0b616950e63e0c3e229764c39e898c4d57e996)
+0016.759 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads9.zip.tmp: 9000 files added (on-disk size: 0 KB)
+0016.769 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads9.zip.tmp: 9100 files added (on-disk size: 0 KB)
+0016.944 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads9.zip.tmp: size is now: 11.40 MB
+0017.242 (0) Created uploads zip (8) - 11708.9 KB in 0.5 s (23861.7 KB/s) (sha1: 554e8e6bd881186b3806c12e5a933ccf1d5600e6, sha256: 35feee3f0e0714c477a78f457e7c6797b3e645a614c20b758666ab0e9b1c582d)
+0017.246 (0) Beginning backup of other directories found in the content directory (index: 0)
+0017.247 (0) Exclusion option setting (others): 
+0017.248 (0) Looking for candidates to back up in: /Users/Beth/Sites/wordpress/CHRAVE1/wp-content
+0017.249 (0) finding files: .DS_Store: adding to list (1)
+0017.250 (0) finding files: _notes: adding to list (2)
+0017.250 (0) finding files: cache: adding to list (3)
+0017.251 (0) finding files: gallery-bank: adding to list (4)
+0017.252 (0) finding files: index.php: adding to list (5)
+0017.253 (0) finding files: index.php-old: adding to list (6)
+0017.254 (0) finding files: languages: adding to list (7)
+0017.255 (0) finding files: maintenance: adding to list (8)
+0017.256 (0) finding files: maintenance.php: adding to list (9)
+0017.256 (0) finding files: mu-plugins: adding to list (10)
+0017.257 (0) finding files: plugins: skipping: this is the plugins directory
+0017.258 (0) finding files: plugins-old: adding to list (11)
+0017.259 (0) finding files: plugins-old-old: adding to list (12)
+0017.260 (0) finding files: themes: skipping: this is the themes directory
+0017.260 (0) finding files: themes-old: adding to list (13)
+0017.261 (0) finding files: themes-old-old: adding to list (14)
+0017.262 (0) finding files: updraft: skipping: this is the updraft directory
+0017.263 (0) finding files: upgrade: adding to list (15)
+0017.264 (0) finding files: uploads: skipping: this is the uploads directory
+0017.265 (0) finding files: uploads-old: adding to list (16)
+0017.265 (0) finding files: uploads-old-old: adding to list (17)
+0017.266 (0) finding files: w3tc-config: adding to list (18)
+0017.267 (0) finding files: wflogs: adding to list (19)
+0017.283 (0) Total entities for the zip file: 23 directories, 227 files (0 skipped as non-modified), 45.1 MB
+0017.287 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.7 MB, 227 files batched, 62 (62) added so far); re-opening (prior size: 0 KB)
+0017.504 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-others.zip.tmp: size is now: 25.70 MB
+0017.508 (0) A useful amount of data was added after this amount of zip processing: 0.8 s (normalised: 0.7 s, rate: 34747.5 KB/s)
+0017.509 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=0.757311105728, normalised_time=0.736743067428, max_time=-1, data points known=0, max_bytes=26214400)
+0017.511 (0) Zip size is at/near split limit (25.7 MB / 25 MB) - bumping index (from: 0)
+0018.195 (0) Created others zip (0) - 26327.1 KB in 0.2 s (108406.4 KB/s) (checksums: sha1: 13b7442a73d6daa639e17673f98b8e887973a62f, sha256: e84a52f85ff9e81966e8bc6e6db420925c1e15c8f1eb78175f77399fb8a91ff0)
+0018.201 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-others2.zip.tmp: 100 files added (on-disk size: 0 KB)
+0018.209 (0) Zip: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-others2.zip.tmp: 200 files added (on-disk size: 0 KB)
+0018.629 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-others2.zip.tmp: size is now: 16.80 MB
+0019.236 (0) Created others zip (1) - 17185.7 KB in 1 s (16525.1 KB/s) (sha1: 8ebe1631901a3c843043f01c93d87adee91f7dec, sha256: 4fd09070177b7baee2c17017cf469b183501856d462136484281be4074d088a5)
+0019.246 (0) Saving backup status to database (elements: 18)
+0019.251 (0) Beginning creation of database dump (WordPress DB)
+0019.283 (0) Table wp_options: Total expected rows (approximate): 732
+0019.458 (0) Table wp_options: Total rows added: 728 in 0.17 seconds
+0019.461 (0) Table wp_options: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_options.table.gz - 314.3 KB)
+0019.469 (0) Table wp_users: Total expected rows (approximate): 51
+0019.480 (0) Table wp_users: Total rows added: 51 in 0.01 seconds
+0019.482 (0) Table wp_users: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_users.table.gz - 5.2 KB)
+0019.493 (0) Table wp_usermeta: Total expected rows (approximate): 1011
+0019.531 (0) Table wp_usermeta: Total rows added: 1011 in 0.04 seconds
+0019.535 (0) Table wp_usermeta: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_usermeta.table.gz - 17.7 KB)
+0019.548 (0) Table wp_commentmeta: Total expected rows (approximate): 56
+0019.563 (0) Table wp_commentmeta: Total rows added: 56 in 0.01 seconds
+0019.565 (0) Table wp_commentmeta: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_commentmeta.table.gz - 1.6 KB)
+0019.576 (0) Table wp_comments: Total expected rows (approximate): 19
+0019.587 (0) Table wp_comments: Total rows added: 19 in 0.01 seconds
+0019.592 (0) Table wp_comments: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_comments.table.gz - 5 KB)
+0019.610 (0) Table wp_links: Total expected rows (approximate): 7
+0019.617 (0) Table wp_links: Total rows added: 7 in 0.01 seconds
+0019.619 (0) Table wp_links: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_links.table.gz - 0.6 KB)
+0019.639 (0) Table wp_postmeta: Total expected rows (approximate): 21690
+0020.261 (0) Table wp_postmeta: Total rows added: 21690 in 0.62 seconds
+0020.263 (0) Table wp_postmeta: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_postmeta.table.gz - 291.5 KB)
+0020.268 (0) Table wp_posts: Total expected rows (approximate): 1554
+0020.572 (0) Table wp_posts: Total rows added: 1554 in 0.30 seconds
+0020.574 (0) Table wp_posts: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_posts.table.gz - 633.4 KB)
+0020.579 (0) Table wp_term_relationships: Total expected rows (approximate): 965
+0020.592 (0) Table wp_term_relationships: Total rows added: 965 in 0.01 seconds
+0020.595 (0) Table wp_term_relationships: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_term_relationships.table.gz - 3.3 KB)
+0020.600 (0) Table wp_term_taxonomy: Total expected rows (approximate): 100
+0020.605 (0) Table wp_term_taxonomy: Total rows added: 100 in 0.00 seconds
+0020.607 (0) Table wp_term_taxonomy: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_term_taxonomy.table.gz - 1.5 KB)
+0020.612 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0020.615 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0020.616 (0) Table wp_termmeta: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_termmeta.table.gz - 0.4 KB)
+0020.622 (0) Table wp_terms: Total expected rows (approximate): 100
+0020.627 (0) Table wp_terms: Total rows added: 100 in 0.00 seconds
+0020.628 (0) Table wp_terms: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_terms.table.gz - 1.6 KB)
+0020.634 (0) Table wp_ak_twitter: Total expected rows (approximate): 43
+0020.639 (0) Table wp_ak_twitter: Total rows added: 43 in 0.00 seconds
+0020.640 (0) Table wp_ak_twitter: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_ak_twitter.table.gz - 3.2 KB)
+0020.646 (0) Table wp_auto_updates: Total expected rows (approximate): 10
+0020.650 (0) Table wp_auto_updates: Total rows added: 10 in 0.00 seconds
+0020.651 (0) Table wp_auto_updates: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_auto_updates.table.gz - 0.4 KB)
+0020.658 (0) Table wp_gallery_albums: Total expected rows (approximate): 11
+0020.662 (0) Table wp_gallery_albums: Total rows added: 11 in 0.00 seconds
+0020.664 (0) Table wp_gallery_albums: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_gallery_albums.table.gz - 0.6 KB)
+0020.671 (0) Table wp_gallery_licensing: Total expected rows (approximate): 1
+0020.674 (0) Table wp_gallery_licensing: Total rows added: 1 in 0.00 seconds
+0020.675 (0) Table wp_gallery_licensing: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_gallery_licensing.table.gz - 0.4 KB)
+0020.682 (0) Table wp_gallery_pics: Total expected rows (approximate): 33
+0020.686 (0) Table wp_gallery_pics: Total rows added: 33 in 0.00 seconds
+0020.688 (0) Table wp_gallery_pics: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_gallery_pics.table.gz - 1.6 KB)
+0020.695 (0) Table wp_gallery_settings: Total expected rows (approximate): 82
+0020.700 (0) Table wp_gallery_settings: Total rows added: 82 in 0.00 seconds
+0020.702 (0) Table wp_gallery_settings: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_gallery_settings.table.gz - 1.2 KB)
+0020.710 (0) Table wp_search_filter_cache: Total expected rows (approximate): 1616
+0020.742 (0) Table wp_search_filter_cache: Total rows added: 1616 in 0.03 seconds
+0020.743 (0) Table wp_search_filter_cache: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_search_filter_cache.table.gz - 9.3 KB)
+0020.751 (0) Table wp_search_filter_term_results: Total expected rows (approximate): 61
+0020.756 (0) Table wp_search_filter_term_results: Total rows added: 61 in 0.00 seconds
+0020.757 (0) Table wp_search_filter_term_results: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_search_filter_term_results.table.gz - 1.1 KB)
+0020.764 (0) Table wp_slp_extendo_meta: Total expected rows (approximate): 0
+0020.767 (0) Table wp_slp_extendo_meta: Total rows added: 0 in 0.00 seconds
+0020.769 (0) Table wp_slp_extendo_meta: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_slp_extendo_meta.table.gz - 0.4 KB)
+0020.776 (0) Table wp_store_locator: Total expected rows (approximate): 0
+0020.780 (0) Table wp_store_locator: Total rows added: 0 in 0.00 seconds
+0020.782 (0) Table wp_store_locator: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_store_locator.table.gz - 0.6 KB)
+0020.790 (0) Table wp_vspfw: Total expected rows (approximate): 6
+0020.794 (0) Table wp_vspfw: Total rows added: 6 in 0.00 seconds
+0020.796 (0) Table wp_vspfw: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_vspfw.table.gz - 0.5 KB)
+0020.803 (0) Table wp_wfBadLeechers: Total expected rows (approximate): 0
+0020.806 (0) Table wp_wfBadLeechers: Total rows added: 0 in 0.00 seconds
+0020.807 (0) Table wp_wfBadLeechers: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfBadLeechers.table.gz - 0.3 KB)
+0020.814 (0) Table wp_wfBlockedCommentLog: Total expected rows (approximate): 0
+0020.818 (0) Table wp_wfBlockedCommentLog: Total rows added: 0 in 0.00 seconds
+0020.820 (0) Table wp_wfBlockedCommentLog: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfBlockedCommentLog.table.gz - 0.3 KB)
+0020.828 (0) Table wp_wfBlockedIPLog: Total expected rows (approximate): 914
+0020.848 (0) Table wp_wfBlockedIPLog: Total rows added: 914 in 0.02 seconds
+0020.849 (0) Table wp_wfBlockedIPLog: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfBlockedIPLog.table.gz - 7.2 KB)
+0020.856 (0) Table wp_wfBlocks: Total expected rows (approximate): 0
+0020.859 (0) Table wp_wfBlocks: Total rows added: 0 in 0.00 seconds
+0020.860 (0) Table wp_wfBlocks: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfBlocks.table.gz - 0.4 KB)
+0020.867 (0) Table wp_wfBlocksAdv: Total expected rows (approximate): 0
+0020.871 (0) Table wp_wfBlocksAdv: Total rows added: 0 in 0.00 seconds
+0020.872 (0) Table wp_wfBlocksAdv: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfBlocksAdv.table.gz - 0.3 KB)
+0020.878 (0) Table wp_wfConfig: Total expected rows (approximate): 211
+0020.909 (0) Table wp_wfConfig: Total rows added: 211 in 0.03 seconds
+0020.910 (0) Table wp_wfConfig: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfConfig.table.gz - 243.8 KB)
+0020.918 (0) Table wp_wfCrawlers: Total expected rows (approximate): 10
+0020.924 (0) Table wp_wfCrawlers: Total rows added: 10 in 0.00 seconds
+0020.925 (0) Table wp_wfCrawlers: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfCrawlers.table.gz - 0.6 KB)
+0020.932 (0) Table wp_wfFileMods: Total expected rows (approximate): 7038
+0021.166 (0) Table wp_wfFileMods: Total rows added: 7038 in 0.23 seconds
+0021.168 (0) Table wp_wfFileMods: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfFileMods.table.gz - 549.1 KB)
+0021.174 (0) Table wp_wfHits: Total expected rows (approximate): 1762
+0021.263 (0) Table wp_wfHits: Total rows added: 1762 in 0.09 seconds
+0021.264 (0) Table wp_wfHits: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfHits.table.gz - 27.5 KB)
+0021.271 (0) Table wp_wfHoover: Total expected rows (approximate): 0
+0021.275 (0) Table wp_wfHoover: Total rows added: 0 in 0.00 seconds
+0021.276 (0) Table wp_wfHoover: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfHoover.table.gz - 0.3 KB)
+0021.283 (0) Table wp_wfIssues: Total expected rows (approximate): 24
+0021.290 (0) Table wp_wfIssues: Total rows added: 24 in 0.01 seconds
+0021.292 (0) Table wp_wfIssues: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfIssues.table.gz - 4.5 KB)
+0021.298 (0) Table wp_wfKnownFileList: Total expected rows (approximate): 7038
+0021.388 (0) Table wp_wfKnownFileList: Total rows added: 7038 in 0.09 seconds
+0021.390 (0) Table wp_wfKnownFileList: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfKnownFileList.table.gz - 70.5 KB)
+0021.398 (0) Table wp_wfLeechers: Total expected rows (approximate): 13
+0021.402 (0) Table wp_wfLeechers: Total rows added: 13 in 0.00 seconds
+0021.403 (0) Table wp_wfLeechers: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfLeechers.table.gz - 0.4 KB)
+0021.411 (0) Table wp_wfLockedOut: Total expected rows (approximate): 1
+0021.415 (0) Table wp_wfLockedOut: Total rows added: 1 in 0.00 seconds
+0021.416 (0) Table wp_wfLockedOut: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfLockedOut.table.gz - 0.4 KB)
+0021.422 (0) Table wp_wfLocs: Total expected rows (approximate): 1
+0021.426 (0) Table wp_wfLocs: Total rows added: 1 in 0.00 seconds
+0021.428 (0) Table wp_wfLocs: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfLocs.table.gz - 0.4 KB)
+0021.434 (0) Table wp_wfLogins: Total expected rows (approximate): 808
+0021.465 (0) Table wp_wfLogins: Total rows added: 808 in 0.03 seconds
+0021.467 (0) Table wp_wfLogins: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfLogins.table.gz - 20.5 KB)
+0021.475 (0) Table wp_wfNet404s: Total expected rows (approximate): 0
+0021.479 (0) Table wp_wfNet404s: Total rows added: 0 in 0.00 seconds
+0021.482 (0) Table wp_wfNet404s: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfNet404s.table.gz - 0.3 KB)
+0021.490 (0) Table wp_wfNotifications: Total expected rows (approximate): 63
+0021.498 (0) Table wp_wfNotifications: Total rows added: 63 in 0.01 seconds
+0021.499 (0) Table wp_wfNotifications: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfNotifications.table.gz - 4.2 KB)
+0021.506 (0) Table wp_wfPendingIssues: Total expected rows (approximate): 2
+0021.511 (0) Table wp_wfPendingIssues: Total rows added: 2 in 0.00 seconds
+0021.513 (0) Table wp_wfPendingIssues: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfPendingIssues.table.gz - 1.1 KB)
+0021.520 (0) Table wp_wfReverseCache: Total expected rows (approximate): 11
+0021.525 (0) Table wp_wfReverseCache: Total rows added: 11 in 0.00 seconds
+0021.527 (0) Table wp_wfReverseCache: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfReverseCache.table.gz - 0.5 KB)
+0021.534 (0) Table wp_wfSNIPCache: Total expected rows (approximate): 2
+0021.539 (0) Table wp_wfSNIPCache: Total rows added: 2 in 0.00 seconds
+0021.540 (0) Table wp_wfSNIPCache: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfSNIPCache.table.gz - 0.4 KB)
+0021.549 (0) Table wp_wfScanners: Total expected rows (approximate): 0
+0021.554 (0) Table wp_wfScanners: Total rows added: 0 in 0.00 seconds
+0021.556 (0) Table wp_wfScanners: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfScanners.table.gz - 0.3 KB)
+0021.565 (0) Table wp_wfStatus: Total expected rows (approximate): 1191
+0021.598 (0) Table wp_wfStatus: Total rows added: 1191 in 0.03 seconds
+0021.599 (0) Table wp_wfStatus: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfStatus.table.gz - 24.1 KB)
+0021.611 (0) Table wp_wfThrottleLog: Total expected rows (approximate): 0
+0021.620 (0) Table wp_wfThrottleLog: Total rows added: 0 in 0.01 seconds
+0021.622 (0) Table wp_wfThrottleLog: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfThrottleLog.table.gz - 0.3 KB)
+0021.630 (0) Table wp_wfVulnScanners: Total expected rows (approximate): 0
+0021.633 (0) Table wp_wfVulnScanners: Total rows added: 0 in 0.00 seconds
+0021.634 (0) Table wp_wfVulnScanners: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfVulnScanners.table.gz - 0.3 KB)
+0021.645 (0) Table wp_wpgmza: Total expected rows (approximate): 11
+0021.650 (0) Table wp_wpgmza: Total rows added: 11 in 0.00 seconds
+0021.652 (0) Table wp_wpgmza: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wpgmza.table.gz - 1.4 KB)
+0021.661 (0) Table wp_wpgmza_categories: Total expected rows (approximate): 0
+0021.666 (0) Table wp_wpgmza_categories: Total rows added: 0 in 0.00 seconds
+0021.668 (0) Table wp_wpgmza_categories: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wpgmza_categories.table.gz - 0.3 KB)
+0021.676 (0) Table wp_wpgmza_category_maps: Total expected rows (approximate): 0
+0021.679 (0) Table wp_wpgmza_category_maps: Total rows added: 0 in 0.00 seconds
+0021.680 (0) Table wp_wpgmza_category_maps: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wpgmza_category_maps.table.gz - 0.3 KB)
+0021.687 (0) Table wp_wpgmza_datasets: Total expected rows (approximate): 0
+0021.691 (0) Table wp_wpgmza_datasets: Total rows added: 0 in 0.00 seconds
+0021.692 (0) Table wp_wpgmza_datasets: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wpgmza_datasets.table.gz - 0.3 KB)
+0021.701 (0) Table wp_wpgmza_maps: Total expected rows (approximate): 0
+0021.705 (0) Table wp_wpgmza_maps: Total rows added: 1 in 0.00 seconds
+0021.707 (0) Table wp_wpgmza_maps: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wpgmza_maps.table.gz - 1.1 KB)
+0021.714 (0) Table wp_wpgmza_polygon: Total expected rows (approximate): 0
+0021.717 (0) Table wp_wpgmza_polygon: Total rows added: 0 in 0.00 seconds
+0021.719 (0) Table wp_wpgmza_polygon: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wpgmza_polygon.table.gz - 0.4 KB)
+0021.726 (0) Table wp_wpgmza_polylines: Total expected rows (approximate): 0
+0021.730 (0) Table wp_wpgmza_polylines: Total rows added: 0 in 0.00 seconds
+0021.731 (0) Table wp_wpgmza_polylines: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wpgmza_polylines.table.gz - 0.3 KB)
+0021.736 (0) Table wp_xyz_smap_addons: Total expected rows (approximate): 0
+0021.740 (0) Table wp_xyz_smap_addons: Total rows added: 0 in 0.00 seconds
+0021.741 (0) Table wp_xyz_smap_addons: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_xyz_smap_addons.table.gz - 0.3 KB)
+0021.749 (0) Table wp_xyz_smap_fb_details: Total expected rows (approximate): 0
+0021.753 (0) Table wp_xyz_smap_fb_details: Total rows added: 1 in 0.00 seconds
+0021.755 (0) Table wp_xyz_smap_fb_details: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_xyz_smap_fb_details.table.gz - 3.2 KB)
+0021.762 (0) Table wp_xyz_smap_gp_details: Total expected rows (approximate): 0
+0021.766 (0) Table wp_xyz_smap_gp_details: Total rows added: 0 in 0.00 seconds
+0021.767 (0) Table wp_xyz_smap_gp_details: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_xyz_smap_gp_details.table.gz - 0.7 KB)
+0021.775 (0) Table wp_xyz_smap_ln_details: Total expected rows (approximate): 0
+0021.779 (0) Table wp_xyz_smap_ln_details: Total rows added: 0 in 0.00 seconds
+0021.780 (0) Table wp_xyz_smap_ln_details: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_xyz_smap_ln_details.table.gz - 0.8 KB)
+0021.789 (0) Table wp_xyz_smap_pi_details: Total expected rows (approximate): 0
+0021.793 (0) Table wp_xyz_smap_pi_details: Total rows added: 0 in 0.00 seconds
+0021.794 (0) Table wp_xyz_smap_pi_details: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_xyz_smap_pi_details.table.gz - 0.6 KB)
+0021.801 (0) Table wp_xyz_smap_tasks: Total expected rows (approximate): 32
+0021.808 (0) Table wp_xyz_smap_tasks: Total rows added: 32 in 0.01 seconds
+0021.809 (0) Table wp_xyz_smap_tasks: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_xyz_smap_tasks.table.gz - 1.5 KB)
+0021.817 (0) Table wp_xyz_smap_tw_details: Total expected rows (approximate): 0
+0021.820 (0) Table wp_xyz_smap_tw_details: Total rows added: 1 in 0.00 seconds
+0021.822 (0) Table wp_xyz_smap_tw_details: finishing file (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_xyz_smap_tw_details.table.gz - 0.9 KB)
+0021.827 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_options.table.gz (1/62): adding to final database dump
+0021.949 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_users.table.gz (2/62): adding to final database dump
+0021.952 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_usermeta.table.gz (3/62): adding to final database dump
+0021.959 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_commentmeta.table.gz (4/62): adding to final database dump
+0021.961 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_comments.table.gz (5/62): adding to final database dump
+0021.964 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_links.table.gz (6/62): adding to final database dump
+0021.965 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_postmeta.table.gz (7/62): adding to final database dump
+0022.129 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_posts.table.gz (8/62): adding to final database dump
+0022.374 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_term_relationships.table.gz (9/62): adding to final database dump
+0022.377 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_term_taxonomy.table.gz (10/62): adding to final database dump
+0022.379 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_termmeta.table.gz (11/62): adding to final database dump
+0022.380 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_terms.table.gz (12/62): adding to final database dump
+0022.383 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_ak_twitter.table.gz (13/62): adding to final database dump
+0022.384 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_auto_updates.table.gz (14/62): adding to final database dump
+0022.385 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_gallery_albums.table.gz (15/62): adding to final database dump
+0022.386 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_gallery_licensing.table.gz (16/62): adding to final database dump
+0022.387 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_gallery_pics.table.gz (17/62): adding to final database dump
+0022.389 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_gallery_settings.table.gz (18/62): adding to final database dump
+0022.390 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_search_filter_cache.table.gz (19/62): adding to final database dump
+0022.397 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_search_filter_term_results.table.gz (20/62): adding to final database dump
+0022.399 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_slp_extendo_meta.table.gz (21/62): adding to final database dump
+0022.400 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_store_locator.table.gz (22/62): adding to final database dump
+0022.401 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_vspfw.table.gz (23/62): adding to final database dump
+0022.402 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfBadLeechers.table.gz (24/62): adding to final database dump
+0022.403 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfBlockedCommentLog.table.gz (25/62): adding to final database dump
+0022.404 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfBlockedIPLog.table.gz (26/62): adding to final database dump
+0022.408 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfBlocks.table.gz (27/62): adding to final database dump
+0022.410 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfBlocksAdv.table.gz (28/62): adding to final database dump
+0022.410 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfConfig.table.gz (29/62): adding to final database dump
+0022.436 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfCrawlers.table.gz (30/62): adding to final database dump
+0022.438 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfFileMods.table.gz (31/62): adding to final database dump
+0022.553 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfHits.table.gz (32/62): adding to final database dump
+0022.582 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfHoover.table.gz (33/62): adding to final database dump
+0022.583 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfIssues.table.gz (34/62): adding to final database dump
+0022.585 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfKnownFileList.table.gz (35/62): adding to final database dump
+0022.623 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfLeechers.table.gz (36/62): adding to final database dump
+0022.624 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfLockedOut.table.gz (37/62): adding to final database dump
+0022.625 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfLocs.table.gz (38/62): adding to final database dump
+0022.626 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfLogins.table.gz (39/62): adding to final database dump
+0022.636 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfNet404s.table.gz (40/62): adding to final database dump
+0022.637 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfNotifications.table.gz (41/62): adding to final database dump
+0022.639 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfPendingIssues.table.gz (42/62): adding to final database dump
+0022.640 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfReverseCache.table.gz (43/62): adding to final database dump
+0022.641 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfSNIPCache.table.gz (44/62): adding to final database dump
+0022.643 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfScanners.table.gz (45/62): adding to final database dump
+0022.644 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfStatus.table.gz (46/62): adding to final database dump
+0022.654 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfThrottleLog.table.gz (47/62): adding to final database dump
+0022.655 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wfVulnScanners.table.gz (48/62): adding to final database dump
+0022.656 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wpgmza.table.gz (49/62): adding to final database dump
+0022.657 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wpgmza_categories.table.gz (50/62): adding to final database dump
+0022.658 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wpgmza_category_maps.table.gz (51/62): adding to final database dump
+0022.659 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wpgmza_datasets.table.gz (52/62): adding to final database dump
+0022.660 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wpgmza_maps.table.gz (53/62): adding to final database dump
+0022.661 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wpgmza_polygon.table.gz (54/62): adding to final database dump
+0022.662 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_wpgmza_polylines.table.gz (55/62): adding to final database dump
+0022.663 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_xyz_smap_addons.table.gz (56/62): adding to final database dump
+0022.664 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_xyz_smap_fb_details.table.gz (57/62): adding to final database dump
+0022.665 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_xyz_smap_gp_details.table.gz (58/62): adding to final database dump
+0022.666 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_xyz_smap_ln_details.table.gz (59/62): adding to final database dump
+0022.667 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_xyz_smap_pi_details.table.gz (60/62): adding to final database dump
+0022.669 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_xyz_smap_tasks.table.gz (61/62): adding to final database dump
+0022.670 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db-table-wp_xyz_smap_tw_details.table.gz (62/62): adding to final database dump
+0022.671 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db.gz: finished writing out complete database file (2232 KB)
+0022.743 (0) Total database tables backed up: 62 (backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db.gz, size: 2312356, sha256)
+0022.751 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0022.752 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins2.zip: plugins: This file has not yet been successfully uploaded: will queue
+0022.753 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0022.754 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0022.755 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+0022.756 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads3.zip: uploads: This file has not yet been successfully uploaded: will queue
+0022.757 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip: uploads: This file has not yet been successfully uploaded: will queue
+0022.758 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads5.zip: uploads: This file has not yet been successfully uploaded: will queue
+0022.759 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads6.zip: uploads: This file has not yet been successfully uploaded: will queue
+0022.759 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads7.zip: uploads: This file has not yet been successfully uploaded: will queue
+0022.760 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads8.zip: uploads: This file has not yet been successfully uploaded: will queue
+0022.761 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads9.zip: uploads: This file has not yet been successfully uploaded: will queue
+0022.762 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-others.zip: others: This file has not yet been successfully uploaded: will queue
+0022.763 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-others2.zip: others: This file has not yet been successfully uploaded: will queue
+0022.764 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db.gz: db: This file has not yet been successfully uploaded: will queue
+0022.764 (0) Saving backup history. Total backup size: 278.1 MB
+0022.768 (0) Requesting upload of the files that have not yet been successfully uploaded (15)
+0022.772 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0022.773 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c319991bdec5c29d4d01029da5826ec0)
+0027.427 (0) Google Drive quota usage: used=3181.9 MB, total=15360 MB, available=12178.1 MB
+0027.428 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip: Attempting to upload to Google Drive (into folder id: 0BywwjC8USFCzcmItS2VPODBwaU0)
+0029.534 (0) Googledrive chunked upload: 4.6 % uploaded (1048576)
+0031.214 (0) Googledrive chunked upload: 9.3 % uploaded (2097152)
+0032.922 (0) Googledrive chunked upload: 13.9 % uploaded (3145728)
+0034.689 (0) Googledrive chunked upload: 18.5 % uploaded (4194304)
+0036.323 (0) Googledrive chunked upload: 23.2 % uploaded (5242880)
+0038.075 (0) Googledrive chunked upload: 27.8 % uploaded (6291456)
+0039.712 (0) Googledrive chunked upload: 32.5 % uploaded (7340032)
+0041.391 (0) Googledrive chunked upload: 37.1 % uploaded (8388608)
+0042.968 (0) Googledrive chunked upload: 41.7 % uploaded (9437184)
+0044.628 (0) Googledrive chunked upload: 46.4 % uploaded (10485760)
+0046.257 (0) Googledrive chunked upload: 51 % uploaded (11534336)
+0047.927 (0) Googledrive chunked upload: 55.6 % uploaded (12582912)
+0049.633 (0) Googledrive chunked upload: 60.3 % uploaded (13631488)
+0051.353 (0) Googledrive chunked upload: 64.9 % uploaded (14680064)
+0052.969 (0) Googledrive chunked upload: 69.5 % uploaded (15728640)
+0054.582 (0) Googledrive chunked upload: 74.2 % uploaded (16777216)
+0056.175 (0) Googledrive chunked upload: 78.8 % uploaded (17825792)
+0057.881 (0) Googledrive chunked upload: 83.4 % uploaded (18874368)
+0059.577 (0) Googledrive chunked upload: 88.1 % uploaded (19922944)
+0061.207 (0) Googledrive chunked upload: 92.7 % uploaded (20971520)
+0063.032 (0) Googledrive chunked upload: 97.4 % uploaded (22020096)
+0065.353 (0) Googledrive chunked upload: 100 % uploaded (22020096)
+0065.358 (0) OK: Archive backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip uploaded to Google Drive in 37.93 seconds
+0065.362 (0) Recording as successfully uploaded: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip (a3360ae0093369f876b1a2180c0fb804)
+0065.367 (0) Deleting local file: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins.zip: skipped: user has unchecked updraft_delete_local option
+0065.747 (0) Google Drive quota usage: used=3203.5 MB, total=15360 MB, available=12156.5 MB
+0065.748 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins2.zip: Attempting to upload to Google Drive (into folder id: 0BywwjC8USFCzcmItS2VPODBwaU0)
+0067.893 (0) Googledrive chunked upload: 68.7 % uploaded (1048576)
+0069.802 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0069.807 (0) OK: Archive backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins2.zip uploaded to Google Drive in 4.06 seconds
+0069.810 (0) Recording as successfully uploaded: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins2.zip (452ec72765016e8d82911e4048ec1445)
+0069.815 (0) Deleting local file: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-plugins2.zip: skipped: user has unchecked updraft_delete_local option
+0070.275 (0) Google Drive quota usage: used=3205 MB, total=15360 MB, available=12155 MB
+0070.276 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-themes.zip: Attempting to upload to Google Drive (into folder id: 0BywwjC8USFCzcmItS2VPODBwaU0)
+0072.344 (0) Googledrive chunked upload: 29.2 % uploaded (1048576)
+0074.220 (0) Googledrive chunked upload: 58.4 % uploaded (2097152)
+0079.586 (0) Googledrive chunked upload: 87.7 % uploaded (3145728)
+0081.243 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0081.248 (0) OK: Archive backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-themes.zip uploaded to Google Drive in 10.97 seconds
+0081.250 (0) Recording as successfully uploaded: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-themes.zip (672fb624f671ff29fd7a0dd43aca05ae)
+0081.255 (0) Deleting local file: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-themes.zip: skipped: user has unchecked updraft_delete_local option
+0081.679 (0) Google Drive quota usage: used=3208.4 MB, total=15360 MB, available=12151.6 MB
+0081.681 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads.zip: Attempting to upload to Google Drive (into folder id: 0BywwjC8USFCzcmItS2VPODBwaU0)
+0084.000 (0) Googledrive chunked upload: 4 % uploaded (1048576)
+0085.660 (0) Googledrive chunked upload: 8.1 % uploaded (2097152)
+0087.439 (0) Googledrive chunked upload: 12.1 % uploaded (3145728)
+0089.160 (0) Googledrive chunked upload: 16.1 % uploaded (4194304)
+0090.854 (0) Googledrive chunked upload: 20.1 % uploaded (5242880)
+0092.512 (0) Googledrive chunked upload: 24.2 % uploaded (6291456)
+0094.198 (0) Googledrive chunked upload: 28.2 % uploaded (7340032)
+0095.799 (0) Googledrive chunked upload: 32.2 % uploaded (8388608)
+0097.515 (0) Googledrive chunked upload: 36.3 % uploaded (9437184)
+0099.206 (0) Googledrive chunked upload: 40.3 % uploaded (10485760)
+0101.264 (0) Googledrive chunked upload: 44.3 % uploaded (11534336)
+0103.049 (0) Googledrive chunked upload: 48.3 % uploaded (12582912)
+0104.761 (0) Googledrive chunked upload: 52.4 % uploaded (13631488)
+0106.469 (0) Googledrive chunked upload: 56.4 % uploaded (14680064)
+0108.156 (0) Googledrive chunked upload: 60.4 % uploaded (15728640)
+0109.846 (0) Googledrive chunked upload: 64.5 % uploaded (16777216)
+0111.543 (0) Googledrive chunked upload: 68.5 % uploaded (17825792)
+0113.135 (0) Googledrive chunked upload: 72.5 % uploaded (18874368)
+0114.851 (0) Googledrive chunked upload: 76.5 % uploaded (19922944)
+0116.613 (0) Googledrive chunked upload: 80.6 % uploaded (20971520)
+0118.262 (0) Googledrive chunked upload: 84.6 % uploaded (22020096)
+0119.874 (0) Googledrive chunked upload: 88.6 % uploaded (23068672)
+0121.544 (0) Googledrive chunked upload: 92.7 % uploaded (24117248)
+0123.245 (0) Googledrive chunked upload: 96.7 % uploaded (25165824)
+0125.515 (0) Googledrive chunked upload: 100 % uploaded (25165824)
+0125.520 (0) OK: Archive backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads.zip uploaded to Google Drive in 43.84 seconds
+0125.523 (0) Recording as successfully uploaded: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads.zip (8701881ffdb38147b04002d670e842c7)
+0125.529 (0) Deleting local file: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads.zip: skipped: user has unchecked updraft_delete_local option
+0126.366 (0) Google Drive quota usage: used=3233.2 MB, total=15360 MB, available=12126.8 MB
+0126.367 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads2.zip: Attempting to upload to Google Drive (into folder id: 0BywwjC8USFCzcmItS2VPODBwaU0)
+0128.412 (0) Googledrive chunked upload: 4.1 % uploaded (1048576)
+0130.052 (0) Googledrive chunked upload: 8.2 % uploaded (2097152)
+0131.658 (0) Googledrive chunked upload: 12.3 % uploaded (3145728)
+0133.281 (0) Googledrive chunked upload: 16.4 % uploaded (4194304)
+0134.910 (0) Googledrive chunked upload: 20.5 % uploaded (5242880)
+0136.628 (0) Googledrive chunked upload: 24.5 % uploaded (6291456)
+0138.266 (0) Googledrive chunked upload: 28.6 % uploaded (7340032)
+0140.118 (0) Googledrive chunked upload: 32.7 % uploaded (8388608)
+0142.029 (0) Googledrive chunked upload: 36.8 % uploaded (9437184)
+0143.748 (0) Googledrive chunked upload: 40.9 % uploaded (10485760)
+0145.369 (0) Googledrive chunked upload: 45 % uploaded (11534336)
+0147.498 (0) Googledrive chunked upload: 49.1 % uploaded (12582912)
+0149.150 (0) Googledrive chunked upload: 53.2 % uploaded (13631488)
+0150.809 (0) Googledrive chunked upload: 57.3 % uploaded (14680064)
+0152.504 (0) Googledrive chunked upload: 61.4 % uploaded (15728640)
+0154.113 (0) Googledrive chunked upload: 65.5 % uploaded (16777216)
+0155.840 (0) Googledrive chunked upload: 69.6 % uploaded (17825792)
+0157.473 (0) Googledrive chunked upload: 73.6 % uploaded (18874368)
+0159.181 (0) Googledrive chunked upload: 77.7 % uploaded (19922944)
+0160.864 (0) Googledrive chunked upload: 81.8 % uploaded (20971520)
+0162.517 (0) Googledrive chunked upload: 85.9 % uploaded (22020096)
+0164.211 (0) Googledrive chunked upload: 90 % uploaded (23068672)
+0165.874 (0) Googledrive chunked upload: 94.1 % uploaded (24117248)
+0167.546 (0) Googledrive chunked upload: 98.2 % uploaded (25165824)
+0169.257 (0) Googledrive chunked upload: 100 % uploaded (25165824)
+0169.261 (0) OK: Archive backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads2.zip uploaded to Google Drive in 42.89 seconds
+0169.264 (0) Recording as successfully uploaded: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads2.zip (09fe660f007c82d7ba5272a589aed090)
+0169.269 (0) Deleting local file: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads2.zip: skipped: user has unchecked updraft_delete_local option
+0170.187 (0) Google Drive quota usage: used=3257.7 MB, total=15360 MB, available=12102.3 MB
+0170.188 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads3.zip: Attempting to upload to Google Drive (into folder id: 0BywwjC8USFCzcmItS2VPODBwaU0)
+0172.478 (0) Googledrive chunked upload: 4.2 % uploaded (1048576)
+0174.154 (0) Googledrive chunked upload: 8.4 % uploaded (2097152)
+0175.826 (0) Googledrive chunked upload: 12.5 % uploaded (3145728)
+0177.461 (0) Googledrive chunked upload: 16.7 % uploaded (4194304)
+0179.129 (0) Googledrive chunked upload: 20.9 % uploaded (5242880)
+0180.784 (0) Googledrive chunked upload: 25.1 % uploaded (6291456)
+0182.378 (0) Googledrive chunked upload: 29.3 % uploaded (7340032)
+0184.078 (0) Googledrive chunked upload: 33.5 % uploaded (8388608)
+0185.707 (0) Googledrive chunked upload: 37.6 % uploaded (9437184)
+0187.394 (0) Googledrive chunked upload: 41.8 % uploaded (10485760)
+0189.074 (0) Googledrive chunked upload: 46 % uploaded (11534336)
+0190.765 (0) Googledrive chunked upload: 50.2 % uploaded (12582912)
+0192.360 (0) Googledrive chunked upload: 54.4 % uploaded (13631488)
+0193.927 (0) Googledrive chunked upload: 58.5 % uploaded (14680064)
+0195.532 (0) Googledrive chunked upload: 62.7 % uploaded (15728640)
+0197.199 (0) Googledrive chunked upload: 66.9 % uploaded (16777216)
+0198.902 (0) Googledrive chunked upload: 71.1 % uploaded (17825792)
+0200.598 (0) Googledrive chunked upload: 75.3 % uploaded (18874368)
+0202.287 (0) Googledrive chunked upload: 79.4 % uploaded (19922944)
+0204.108 (0) Googledrive chunked upload: 83.6 % uploaded (20971520)
+0205.807 (0) Googledrive chunked upload: 87.8 % uploaded (22020096)
+0207.523 (0) Googledrive chunked upload: 92 % uploaded (23068672)
+0209.330 (0) Googledrive chunked upload: 96.2 % uploaded (24117248)
+0211.739 (0) Googledrive chunked upload: 100 % uploaded (24117248)
+0211.749 (0) OK: Archive backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads3.zip uploaded to Google Drive in 41.56 seconds
+0211.755 (0) Recording as successfully uploaded: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads3.zip (bae3c81464833e6e6155813d66574aae)
+0211.761 (0) Deleting local file: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads3.zip: skipped: user has unchecked updraft_delete_local option
+0212.185 (0) Google Drive quota usage: used=3281.6 MB, total=15360 MB, available=12078.4 MB
+0212.187 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip: Attempting to upload to Google Drive (into folder id: 0BywwjC8USFCzcmItS2VPODBwaU0)
+0214.241 (0) Googledrive chunked upload: 4 % uploaded (1048576)
+0215.909 (0) Googledrive chunked upload: 8 % uploaded (2097152)
+0217.593 (0) Googledrive chunked upload: 12 % uploaded (3145728)
+0219.267 (0) Googledrive chunked upload: 16 % uploaded (4194304)
+0221.031 (0) Googledrive chunked upload: 20 % uploaded (5242880)
+0222.615 (0) Googledrive chunked upload: 23.9 % uploaded (6291456)
+0224.264 (0) Googledrive chunked upload: 27.9 % uploaded (7340032)
+0225.953 (0) Googledrive chunked upload: 31.9 % uploaded (8388608)
+0227.631 (0) Googledrive chunked upload: 35.9 % uploaded (9437184)
+0229.221 (0) Googledrive chunked upload: 39.9 % uploaded (10485760)
+0230.977 (0) Googledrive chunked upload: 43.9 % uploaded (11534336)
+0232.706 (0) Googledrive chunked upload: 47.9 % uploaded (12582912)
+0234.364 (0) Googledrive chunked upload: 51.9 % uploaded (13631488)
+0236.034 (0) Googledrive chunked upload: 55.9 % uploaded (14680064)
+0237.709 (0) Googledrive chunked upload: 59.9 % uploaded (15728640)
+0241.745 (0) Googledrive chunked upload: 63.9 % uploaded (16777216)
+0243.415 (0) Googledrive chunked upload: 67.8 % uploaded (17825792)
+0245.126 (0) Googledrive chunked upload: 71.8 % uploaded (18874368)
+0246.730 (0) Googledrive chunked upload: 75.8 % uploaded (19922944)
+0248.405 (0) Googledrive chunked upload: 79.8 % uploaded (20971520)
+0250.085 (0) Googledrive chunked upload: 83.8 % uploaded (22020096)
+0251.760 (0) Googledrive chunked upload: 87.8 % uploaded (23068672)
+0253.434 (0) Googledrive chunked upload: 91.8 % uploaded (24117248)
+0255.188 (0) The scheduled resumption is within 45 seconds - will reschedule
+0255.192 (0) Rescheduling resumption 1: moving to 345 seconds from now (1524743516)
+0255.196 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0255.197 (0) Googledrive chunked upload: 95.8 % uploaded (25165824)
+0256.820 (0) Googledrive chunked upload: 99.8 % uploaded (26214400)
+0258.537 (0) Googledrive chunked upload: 100 % uploaded (26214400)
+0258.542 (0) OK: Archive backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip uploaded to Google Drive in 46.35 seconds
+0258.545 (0) Recording as successfully uploaded: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip (c35339647eeab902b74365a2ebcfd1a7)
+0258.550 (0) Deleting local file: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads4.zip: skipped: user has unchecked updraft_delete_local option
+0258.972 (0) Google Drive quota usage: used=3306.6 MB, total=15360 MB, available=12053.4 MB
+0258.973 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads5.zip: Attempting to upload to Google Drive (into folder id: 0BywwjC8USFCzcmItS2VPODBwaU0)
+0261.169 (0) Googledrive chunked upload: 4.1 % uploaded (1048576)
+0263.032 (0) Googledrive chunked upload: 8.1 % uploaded (2097152)
+0264.836 (0) Googledrive chunked upload: 12.2 % uploaded (3145728)
+0266.525 (0) Googledrive chunked upload: 16.3 % uploaded (4194304)
+0268.801 (0) Googledrive chunked upload: 20.4 % uploaded (5242880)
+0270.569 (0) Googledrive chunked upload: 24.4 % uploaded (6291456)
+0272.240 (0) Googledrive chunked upload: 28.5 % uploaded (7340032)
+0273.838 (0) Googledrive chunked upload: 32.6 % uploaded (8388608)
+0275.553 (0) Googledrive chunked upload: 36.6 % uploaded (9437184)
+0277.151 (0) Googledrive chunked upload: 40.7 % uploaded (10485760)
+0278.722 (0) Googledrive chunked upload: 44.8 % uploaded (11534336)
+0280.418 (0) Googledrive chunked upload: 48.9 % uploaded (12582912)
+0282.111 (0) Googledrive chunked upload: 52.9 % uploaded (13631488)
+0283.770 (0) Googledrive chunked upload: 57 % uploaded (14680064)
+0285.375 (0) Googledrive chunked upload: 61.1 % uploaded (15728640)
+0286.952 (0) Googledrive chunked upload: 65.1 % uploaded (16777216)
+0288.634 (0) Googledrive chunked upload: 69.2 % uploaded (17825792)
+0290.301 (0) Googledrive chunked upload: 73.3 % uploaded (18874368)
+0291.988 (0) Googledrive chunked upload: 77.4 % uploaded (19922944)
+0293.659 (0) Googledrive chunked upload: 81.4 % uploaded (20971520)
+0295.337 (0) Googledrive chunked upload: 85.5 % uploaded (22020096)
+0297.031 (0) Googledrive chunked upload: 89.6 % uploaded (23068672)
+0298.626 (0) Googledrive chunked upload: 93.6 % uploaded (24117248)
+0300.311 (0) Googledrive chunked upload: 97.7 % uploaded (25165824)
+0302.162 (0) Googledrive chunked upload: 100 % uploaded (25165824)
+0302.167 (0) OK: Archive backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads5.zip uploaded to Google Drive in 43.19 seconds
+0302.171 (0) Recording as successfully uploaded: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads5.zip (612ae76e534090a2e1707debd2d07afb)
+0302.175 (0) Deleting local file: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads5.zip: skipped: user has unchecked updraft_delete_local option
+0303.081 (0) Google Drive quota usage: used=3331.2 MB, total=15360 MB, available=12028.8 MB
+0303.082 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads6.zip: Attempting to upload to Google Drive (into folder id: 0BywwjC8USFCzcmItS2VPODBwaU0)
+0305.289 (0) Googledrive chunked upload: 4 % uploaded (1048576)
+0306.901 (0) Googledrive chunked upload: 8.1 % uploaded (2097152)
+0308.512 (0) Googledrive chunked upload: 12.1 % uploaded (3145728)
+0310.110 (0) Googledrive chunked upload: 16.1 % uploaded (4194304)
+0311.771 (0) Googledrive chunked upload: 20.1 % uploaded (5242880)
+0313.432 (0) Googledrive chunked upload: 24.2 % uploaded (6291456)
+0315.128 (0) The time we have been running (315.1) is approaching the resumption interval (345) - increasing resumption interval to 346
+0315.132 (0) Googledrive chunked upload: 28.2 % uploaded (7340032)
+0316.802 (0) The time we have been running (316.8) is approaching the resumption interval (346) - increasing resumption interval to 347
+0316.805 (0) Googledrive chunked upload: 32.2 % uploaded (8388608)
+0318.471 (0) The time we have been running (318.5) is approaching the resumption interval (347) - increasing resumption interval to 349
+0318.474 (0) Googledrive chunked upload: 36.2 % uploaded (9437184)
+0320.167 (0) The time we have been running (320.2) is approaching the resumption interval (349) - increasing resumption interval to 351
+0320.172 (0) Googledrive chunked upload: 40.3 % uploaded (10485760)
+0321.865 (0) The time we have been running (321.9) is approaching the resumption interval (351) - increasing resumption interval to 352
+0321.868 (0) Googledrive chunked upload: 44.3 % uploaded (11534336)
+0323.534 (0) The time we have been running (323.5) is approaching the resumption interval (352) - increasing resumption interval to 354
+0323.537 (0) Googledrive chunked upload: 48.3 % uploaded (12582912)
+0325.601 (0) The time we have been running (325.6) is approaching the resumption interval (354) - increasing resumption interval to 356
+0325.608 (0) Googledrive chunked upload: 52.4 % uploaded (13631488)
+0327.439 (0) The time we have been running (327.4) is approaching the resumption interval (356) - increasing resumption interval to 358
+0327.442 (0) Googledrive chunked upload: 56.4 % uploaded (14680064)
+0329.140 (0) The time we have been running (329.1) is approaching the resumption interval (358) - increasing resumption interval to 360
+0329.142 (0) Googledrive chunked upload: 60.4 % uploaded (15728640)
+0330.865 (0) The time we have been running (330.9) is approaching the resumption interval (360) - increasing resumption interval to 361
+0330.868 (0) Googledrive chunked upload: 64.4 % uploaded (16777216)
+0332.685 (0) The time we have been running (332.7) is approaching the resumption interval (361) - increasing resumption interval to 363
+0332.688 (0) Googledrive chunked upload: 68.5 % uploaded (17825792)
+0334.442 (0) The time we have been running (334.4) is approaching the resumption interval (363) - increasing resumption interval to 365
+0334.445 (0) Googledrive chunked upload: 72.5 % uploaded (18874368)
+0337.540 (0) The time we have been running (337.5) is approaching the resumption interval (365) - increasing resumption interval to 368
+0337.543 (0) Googledrive chunked upload: 76.5 % uploaded (19922944)
+0339.217 (0) The time we have been running (339.2) is approaching the resumption interval (368) - increasing resumption interval to 370
+0339.220 (0) Googledrive chunked upload: 80.6 % uploaded (20971520)
+0340.965 (0) The time we have been running (341) is approaching the resumption interval (370) - increasing resumption interval to 371
+0340.968 (0) Googledrive chunked upload: 84.6 % uploaded (22020096)
+0342.644 (0) The time we have been running (342.6) is approaching the resumption interval (371) - increasing resumption interval to 373
+0342.647 (0) Googledrive chunked upload: 88.6 % uploaded (23068672)
+0344.261 (0) The time we have been running (344.3) is approaching the resumption interval (373) - increasing resumption interval to 375
+0344.264 (0) Googledrive chunked upload: 92.6 % uploaded (24117248)
+0345.962 (0) The time we have been running (346) is approaching the resumption interval (375) - increasing resumption interval to 376
+0345.965 (0) Googledrive chunked upload: 96.7 % uploaded (25165824)
+0350.627 (0) The time we have been running (350.6) is approaching the resumption interval (376) - increasing resumption interval to 381
+0350.630 (0) Googledrive chunked upload: 100 % uploaded (25165824)
+0350.636 (0) OK: Archive backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads6.zip uploaded to Google Drive in 47.55 seconds
+0350.640 (0) Recording as successfully uploaded: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads6.zip (925236c0661ef9aa1518671f1ac9c1fa)
+0350.645 (0) Deleting local file: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads6.zip: skipped: user has unchecked updraft_delete_local option
+0351.080 (0) Google Drive quota usage: used=3356 MB, total=15360 MB, available=12004 MB
+0351.082 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads7.zip: Attempting to upload to Google Drive (into folder id: 0BywwjC8USFCzcmItS2VPODBwaU0)
+0353.092 (0) The time we have been running (353.1) is approaching the resumption interval (381) - increasing resumption interval to 384
+0353.095 (0) Googledrive chunked upload: 4.1 % uploaded (1048576)
+0354.762 (0) The time we have been running (354.8) is approaching the resumption interval (384) - increasing resumption interval to 385
+0354.765 (0) Googledrive chunked upload: 8.3 % uploaded (2097152)
+0356.438 (0) The time we have been running (356.4) is approaching the resumption interval (385) - increasing resumption interval to 387
+0356.441 (0) Googledrive chunked upload: 12.4 % uploaded (3145728)
+0358.125 (0) The time we have been running (358.1) is approaching the resumption interval (387) - increasing resumption interval to 389
+0358.128 (0) Googledrive chunked upload: 16.6 % uploaded (4194304)
+0359.785 (0) The time we have been running (359.8) is approaching the resumption interval (389) - increasing resumption interval to 390
+0359.794 (0) Googledrive chunked upload: 20.7 % uploaded (5242880)
+0361.532 (0) The time we have been running (361.5) is approaching the resumption interval (390) - increasing resumption interval to 392
+0361.537 (0) Googledrive chunked upload: 24.9 % uploaded (6291456)
+0364.160 (0) The time we have been running (364.2) is approaching the resumption interval (392) - increasing resumption interval to 395
+0364.162 (0) Googledrive chunked upload: 29 % uploaded (7340032)
+0365.846 (0) The time we have been running (365.8) is approaching the resumption interval (395) - increasing resumption interval to 396
+0365.849 (0) Googledrive chunked upload: 33.1 % uploaded (8388608)
+0367.541 (0) The time we have been running (367.5) is approaching the resumption interval (396) - increasing resumption interval to 398
+0367.545 (0) Googledrive chunked upload: 37.3 % uploaded (9437184)
+0371.626 (0) The time we have been running (371.6) is approaching the resumption interval (398) - increasing resumption interval to 402
+0371.630 (0) Googledrive chunked upload: 41.4 % uploaded (10485760)
+0373.210 (0) The time we have been running (373.2) is approaching the resumption interval (402) - increasing resumption interval to 404
+0373.214 (0) Googledrive chunked upload: 45.6 % uploaded (11534336)
+0374.810 (0) The time we have been running (374.8) is approaching the resumption interval (404) - increasing resumption interval to 405
+0374.813 (0) Googledrive chunked upload: 49.7 % uploaded (12582912)
+0376.491 (0) The time we have been running (376.5) is approaching the resumption interval (405) - increasing resumption interval to 407
+0376.495 (0) Googledrive chunked upload: 53.8 % uploaded (13631488)
+0378.208 (0) The time we have been running (378.2) is approaching the resumption interval (407) - increasing resumption interval to 409
+0378.212 (0) Googledrive chunked upload: 58 % uploaded (14680064)
+0379.876 (0) The time we have been running (379.9) is approaching the resumption interval (409) - increasing resumption interval to 410
+0379.879 (0) Googledrive chunked upload: 62.1 % uploaded (15728640)
+0381.552 (0) The time we have been running (381.5) is approaching the resumption interval (410) - increasing resumption interval to 412
+0381.555 (0) Googledrive chunked upload: 66.3 % uploaded (16777216)
+0383.255 (0) The time we have been running (383.3) is approaching the resumption interval (412) - increasing resumption interval to 414
+0383.258 (0) Googledrive chunked upload: 70.4 % uploaded (17825792)
+0384.932 (0) The time we have been running (384.9) is approaching the resumption interval (414) - increasing resumption interval to 415
+0384.937 (0) Googledrive chunked upload: 74.6 % uploaded (18874368)
+0386.528 (0) The time we have been running (386.5) is approaching the resumption interval (415) - increasing resumption interval to 417
+0386.531 (0) Googledrive chunked upload: 78.7 % uploaded (19922944)
+0388.309 (0) The time we have been running (388.3) is approaching the resumption interval (417) - increasing resumption interval to 419
+0388.314 (0) Googledrive chunked upload: 82.8 % uploaded (20971520)
+0390.419 (0) The time we have been running (390.4) is approaching the resumption interval (419) - increasing resumption interval to 421
+0390.422 (0) Googledrive chunked upload: 87 % uploaded (22020096)
+0392.055 (0) The time we have been running (392.1) is approaching the resumption interval (421) - increasing resumption interval to 423
+0392.058 (0) Googledrive chunked upload: 91.1 % uploaded (23068672)
+0393.661 (0) The time we have been running (393.7) is approaching the resumption interval (423) - increasing resumption interval to 424
+0393.664 (0) Googledrive chunked upload: 95.3 % uploaded (24117248)
+0395.366 (0) The time we have been running (395.4) is approaching the resumption interval (424) - increasing resumption interval to 426
+0395.369 (0) Googledrive chunked upload: 99.4 % uploaded (25165824)
+0396.579 (0) The time we have been running (396.6) is approaching the resumption interval (426) - increasing resumption interval to 427
+0396.582 (0) Googledrive chunked upload: 100 % uploaded (25165824)
+0396.588 (0) OK: Archive backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads7.zip uploaded to Google Drive in 45.5 seconds
+0396.591 (0) Recording as successfully uploaded: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads7.zip (6f2c9b9d4e069da96d7da8ab50c2ff5d)
+0396.597 (0) Deleting local file: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads7.zip: skipped: user has unchecked updraft_delete_local option
+0398.010 (0) Google Drive quota usage: used=3380.2 MB, total=15360 MB, available=11979.8 MB
+0398.011 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads8.zip: Attempting to upload to Google Drive (into folder id: 0BywwjC8USFCzcmItS2VPODBwaU0)
+0400.521 (0) The time we have been running (400.5) is approaching the resumption interval (427) - increasing resumption interval to 431
+0400.524 (0) Googledrive chunked upload: 4.2 % uploaded (1048576)
+0402.104 (0) The time we have been running (402.1) is approaching the resumption interval (431) - increasing resumption interval to 433
+0402.107 (0) Googledrive chunked upload: 8.4 % uploaded (2097152)
+0403.797 (0) The time we have been running (403.8) is approaching the resumption interval (433) - increasing resumption interval to 434
+0403.800 (0) Googledrive chunked upload: 12.7 % uploaded (3145728)
+0405.405 (0) The time we have been running (405.4) is approaching the resumption interval (434) - increasing resumption interval to 436
+0405.408 (0) Googledrive chunked upload: 16.9 % uploaded (4194304)
+0407.023 (0) The time we have been running (407) is approaching the resumption interval (436) - increasing resumption interval to 438
+0407.026 (0) Googledrive chunked upload: 21.1 % uploaded (5242880)
+0410.080 (0) The time we have been running (410.1) is approaching the resumption interval (438) - increasing resumption interval to 441
+0410.083 (0) Googledrive chunked upload: 25.3 % uploaded (6291456)
+0411.773 (0) The time we have been running (411.8) is approaching the resumption interval (441) - increasing resumption interval to 442
+0411.776 (0) Googledrive chunked upload: 29.5 % uploaded (7340032)
+0413.450 (0) The time we have been running (413.4) is approaching the resumption interval (442) - increasing resumption interval to 444
+0413.453 (0) Googledrive chunked upload: 33.8 % uploaded (8388608)
+0415.172 (0) The time we have been running (415.2) is approaching the resumption interval (444) - increasing resumption interval to 446
+0415.174 (0) Googledrive chunked upload: 38 % uploaded (9437184)
+0416.770 (0) The time we have been running (416.8) is approaching the resumption interval (446) - increasing resumption interval to 447
+0416.773 (0) Googledrive chunked upload: 42.2 % uploaded (10485760)
+0418.393 (0) The time we have been running (418.4) is approaching the resumption interval (447) - increasing resumption interval to 449
+0418.396 (0) Googledrive chunked upload: 46.4 % uploaded (11534336)
+0420.003 (0) The time we have been running (420) is approaching the resumption interval (449) - increasing resumption interval to 450
+0420.006 (0) Googledrive chunked upload: 50.6 % uploaded (12582912)
+0421.707 (0) The time we have been running (421.7) is approaching the resumption interval (450) - increasing resumption interval to 452
+0421.710 (0) Googledrive chunked upload: 54.8 % uploaded (13631488)
+0423.328 (0) The time we have been running (423.3) is approaching the resumption interval (452) - increasing resumption interval to 454
+0423.330 (0) Googledrive chunked upload: 59.1 % uploaded (14680064)
+0424.997 (0) The time we have been running (425) is approaching the resumption interval (454) - increasing resumption interval to 455
+0425.000 (0) Googledrive chunked upload: 63.3 % uploaded (15728640)
+0426.762 (0) The time we have been running (426.8) is approaching the resumption interval (455) - increasing resumption interval to 457
+0426.765 (0) Googledrive chunked upload: 67.5 % uploaded (16777216)
+0428.444 (0) The time we have been running (428.4) is approaching the resumption interval (457) - increasing resumption interval to 459
+0428.447 (0) Googledrive chunked upload: 71.7 % uploaded (17825792)
+0430.043 (0) The time we have been running (430) is approaching the resumption interval (459) - increasing resumption interval to 461
+0430.046 (0) Googledrive chunked upload: 75.9 % uploaded (18874368)
+0431.775 (0) The time we have been running (431.8) is approaching the resumption interval (461) - increasing resumption interval to 462
+0431.778 (0) Googledrive chunked upload: 80.2 % uploaded (19922944)
+0433.445 (0) The time we have been running (433.4) is approaching the resumption interval (462) - increasing resumption interval to 464
+0433.448 (0) Googledrive chunked upload: 84.4 % uploaded (20971520)
+0435.061 (0) The time we have been running (435.1) is approaching the resumption interval (464) - increasing resumption interval to 466
+0435.064 (0) Googledrive chunked upload: 88.6 % uploaded (22020096)
+0436.662 (0) The time we have been running (436.7) is approaching the resumption interval (466) - increasing resumption interval to 467
+0436.665 (0) Googledrive chunked upload: 92.8 % uploaded (23068672)
+0438.324 (0) The time we have been running (438.3) is approaching the resumption interval (467) - increasing resumption interval to 469
+0438.327 (0) Googledrive chunked upload: 97 % uploaded (24117248)
+0440.392 (0) The time we have been running (440.4) is approaching the resumption interval (469) - increasing resumption interval to 471
+0440.396 (0) Googledrive chunked upload: 100 % uploaded (24117248)
+0440.404 (0) OK: Archive backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads8.zip uploaded to Google Drive in 42.39 seconds
+0440.408 (0) Recording as successfully uploaded: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads8.zip (6e3efcfd4951d20567355083c73c042c)
+0440.415 (0) Deleting local file: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads8.zip: skipped: user has unchecked updraft_delete_local option
+0440.839 (0) Google Drive quota usage: used=3403.9 MB, total=15360 MB, available=11956.1 MB
+0440.840 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads9.zip: Attempting to upload to Google Drive (into folder id: 0BywwjC8USFCzcmItS2VPODBwaU0)
+0442.838 (0) The time we have been running (442.8) is approaching the resumption interval (471) - increasing resumption interval to 473
+0442.842 (0) Googledrive chunked upload: 8.7 % uploaded (1048576)
+0444.514 (0) The time we have been running (444.5) is approaching the resumption interval (473) - increasing resumption interval to 475
+0444.517 (0) Googledrive chunked upload: 17.5 % uploaded (2097152)
+0446.212 (0) The time we have been running (446.2) is approaching the resumption interval (475) - increasing resumption interval to 477
+0446.215 (0) Googledrive chunked upload: 26.2 % uploaded (3145728)
+0447.889 (0) The time we have been running (447.9) is approaching the resumption interval (477) - increasing resumption interval to 478
+0447.892 (0) Googledrive chunked upload: 35 % uploaded (4194304)
+0449.581 (0) The time we have been running (449.6) is approaching the resumption interval (478) - increasing resumption interval to 480
+0449.584 (0) Googledrive chunked upload: 43.7 % uploaded (5242880)
+0451.278 (0) The time we have been running (451.3) is approaching the resumption interval (480) - increasing resumption interval to 482
+0451.282 (0) Googledrive chunked upload: 52.5 % uploaded (6291456)
+0453.373 (0) The time we have been running (453.4) is approaching the resumption interval (482) - increasing resumption interval to 484
+0453.375 (0) Googledrive chunked upload: 61.2 % uploaded (7340032)
+0455.093 (0) The time we have been running (455.1) is approaching the resumption interval (484) - increasing resumption interval to 486
+0455.096 (0) Googledrive chunked upload: 70 % uploaded (8388608)
+0456.776 (0) The time we have been running (456.8) is approaching the resumption interval (486) - increasing resumption interval to 487
+0456.779 (0) Googledrive chunked upload: 78.7 % uploaded (9437184)
+0458.454 (0) The time we have been running (458.5) is approaching the resumption interval (487) - increasing resumption interval to 489
+0458.457 (0) Googledrive chunked upload: 87.5 % uploaded (10485760)
+0460.146 (0) The time we have been running (460.1) is approaching the resumption interval (489) - increasing resumption interval to 491
+0460.149 (0) Googledrive chunked upload: 96.2 % uploaded (11534336)
+0461.829 (0) The time we have been running (461.8) is approaching the resumption interval (491) - increasing resumption interval to 492
+0461.835 (0) Googledrive chunked upload: 100 % uploaded (11534336)
+0461.845 (0) OK: Archive backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads9.zip uploaded to Google Drive in 21 seconds
+0461.853 (0) Recording as successfully uploaded: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads9.zip (12e53ea60df92c8b9998d8c7d7d5533c)
+0461.860 (0) Deleting local file: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-uploads9.zip: skipped: user has unchecked updraft_delete_local option
+0462.273 (0) Google Drive quota usage: used=3415.3 MB, total=15360 MB, available=11944.7 MB
+0462.276 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-others.zip: Attempting to upload to Google Drive (into folder id: 0BywwjC8USFCzcmItS2VPODBwaU0)
+0466.757 (0) The time we have been running (466.8) is approaching the resumption interval (492) - increasing resumption interval to 497
+0466.760 (0) Googledrive chunked upload: 3.9 % uploaded (1048576)
+0468.414 (0) The time we have been running (468.4) is approaching the resumption interval (497) - increasing resumption interval to 499
+0468.417 (0) Googledrive chunked upload: 7.8 % uploaded (2097152)
+0470.083 (0) The time we have been running (470.1) is approaching the resumption interval (499) - increasing resumption interval to 501
+0470.086 (0) Googledrive chunked upload: 11.7 % uploaded (3145728)
+0471.691 (0) The time we have been running (471.7) is approaching the resumption interval (501) - increasing resumption interval to 502
+0471.694 (0) Googledrive chunked upload: 15.6 % uploaded (4194304)
+0473.376 (0) The time we have been running (473.4) is approaching the resumption interval (502) - increasing resumption interval to 504
+0473.379 (0) Googledrive chunked upload: 19.4 % uploaded (5242880)
+0475.049 (0) The time we have been running (475) is approaching the resumption interval (504) - increasing resumption interval to 506
+0475.053 (0) Googledrive chunked upload: 23.3 % uploaded (6291456)
+0476.749 (0) The time we have been running (476.7) is approaching the resumption interval (506) - increasing resumption interval to 507
+0476.756 (0) Googledrive chunked upload: 27.2 % uploaded (7340032)
+0478.477 (0) The time we have been running (478.5) is approaching the resumption interval (507) - increasing resumption interval to 509
+0478.480 (0) Googledrive chunked upload: 31.1 % uploaded (8388608)
+0480.068 (0) The time we have been running (480.1) is approaching the resumption interval (509) - increasing resumption interval to 511
+0480.071 (0) Googledrive chunked upload: 35 % uploaded (9437184)
+0481.787 (0) The time we have been running (481.8) is approaching the resumption interval (511) - increasing resumption interval to 512
+0481.790 (0) Googledrive chunked upload: 38.9 % uploaded (10485760)
+0483.467 (0) The time we have been running (483.5) is approaching the resumption interval (512) - increasing resumption interval to 514
+0483.473 (0) Googledrive chunked upload: 42.8 % uploaded (11534336)
+0485.287 (0) The time we have been running (485.3) is approaching the resumption interval (514) - increasing resumption interval to 516
+0485.292 (0) Googledrive chunked upload: 46.7 % uploaded (12582912)
+0486.980 (0) The time we have been running (487) is approaching the resumption interval (516) - increasing resumption interval to 517
+0486.985 (0) Googledrive chunked upload: 50.6 % uploaded (13631488)
+0488.644 (0) The time we have been running (488.6) is approaching the resumption interval (517) - increasing resumption interval to 519
+0488.652 (0) Googledrive chunked upload: 54.5 % uploaded (14680064)
+0490.278 (0) The time we have been running (490.3) is approaching the resumption interval (519) - increasing resumption interval to 521
+0490.289 (0) Googledrive chunked upload: 58.3 % uploaded (15728640)
+0491.962 (0) The time we have been running (492) is approaching the resumption interval (521) - increasing resumption interval to 522
+0491.965 (0) Googledrive chunked upload: 62.2 % uploaded (16777216)
+0493.614 (0) The time we have been running (493.6) is approaching the resumption interval (522) - increasing resumption interval to 524
+0493.617 (0) Googledrive chunked upload: 66.1 % uploaded (17825792)
+0495.273 (0) The time we have been running (495.3) is approaching the resumption interval (524) - increasing resumption interval to 526
+0495.282 (0) Googledrive chunked upload: 70 % uploaded (18874368)
+0496.948 (0) The time we have been running (496.9) is approaching the resumption interval (526) - increasing resumption interval to 527
+0496.951 (0) Googledrive chunked upload: 73.9 % uploaded (19922944)
+0498.554 (0) The time we have been running (498.6) is approaching the resumption interval (527) - increasing resumption interval to 529
+0498.557 (0) Googledrive chunked upload: 77.8 % uploaded (20971520)
+0500.240 (0) The time we have been running (500.2) is approaching the resumption interval (529) - increasing resumption interval to 531
+0500.243 (0) Googledrive chunked upload: 81.7 % uploaded (22020096)
+0501.936 (0) The time we have been running (501.9) is approaching the resumption interval (531) - increasing resumption interval to 532
+0501.939 (0) Googledrive chunked upload: 85.6 % uploaded (23068672)
+0503.616 (0) The time we have been running (503.6) is approaching the resumption interval (532) - increasing resumption interval to 534
+0503.619 (0) Googledrive chunked upload: 89.5 % uploaded (24117248)
+0505.230 (0) The time we have been running (505.2) is approaching the resumption interval (534) - increasing resumption interval to 536
+0505.233 (0) Googledrive chunked upload: 93.3 % uploaded (25165824)
+0506.933 (0) The time we have been running (506.9) is approaching the resumption interval (536) - increasing resumption interval to 537
+0506.937 (0) Googledrive chunked upload: 97.2 % uploaded (26214400)
+0509.222 (0) The time we have been running (509.2) is approaching the resumption interval (537) - increasing resumption interval to 540
+0509.226 (0) Googledrive chunked upload: 100 % uploaded (26214400)
+0509.231 (0) OK: Archive backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-others.zip uploaded to Google Drive in 46.95 seconds
+0509.234 (0) Recording as successfully uploaded: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-others.zip (6d736f6b7c70f16df244d56b1f557029)
+0509.239 (0) Deleting local file: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-others.zip: skipped: user has unchecked updraft_delete_local option
+0510.016 (0) Google Drive quota usage: used=3441 MB, total=15360 MB, available=11919 MB
+0510.017 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-others2.zip: Attempting to upload to Google Drive (into folder id: 0BywwjC8USFCzcmItS2VPODBwaU0)
+0512.037 (0) The time we have been running (512) is approaching the resumption interval (540) - increasing resumption interval to 543
+0512.040 (0) Googledrive chunked upload: 6 % uploaded (1048576)
+0513.652 (0) The time we have been running (513.6) is approaching the resumption interval (543) - increasing resumption interval to 544
+0513.655 (0) Googledrive chunked upload: 11.9 % uploaded (2097152)
+0515.318 (0) The time we have been running (515.3) is approaching the resumption interval (544) - increasing resumption interval to 546
+0515.321 (0) Googledrive chunked upload: 17.9 % uploaded (3145728)
+0516.956 (0) The time we have been running (517) is approaching the resumption interval (546) - increasing resumption interval to 547
+0516.959 (0) Googledrive chunked upload: 23.8 % uploaded (4194304)
+0518.586 (0) The time we have been running (518.6) is approaching the resumption interval (547) - increasing resumption interval to 549
+0518.589 (0) Googledrive chunked upload: 29.8 % uploaded (5242880)
+0520.256 (0) The time we have been running (520.2) is approaching the resumption interval (549) - increasing resumption interval to 551
+0520.260 (0) Googledrive chunked upload: 35.8 % uploaded (6291456)
+0521.872 (0) The time we have been running (521.9) is approaching the resumption interval (551) - increasing resumption interval to 552
+0521.875 (0) Googledrive chunked upload: 41.7 % uploaded (7340032)
+0523.486 (0) The time we have been running (523.5) is approaching the resumption interval (552) - increasing resumption interval to 554
+0523.489 (0) Googledrive chunked upload: 47.7 % uploaded (8388608)
+0525.566 (0) The time we have been running (525.6) is approaching the resumption interval (554) - increasing resumption interval to 556
+0525.572 (0) Googledrive chunked upload: 53.6 % uploaded (9437184)
+0527.497 (0) The time we have been running (527.5) is approaching the resumption interval (556) - increasing resumption interval to 558
+0527.501 (0) Googledrive chunked upload: 59.6 % uploaded (10485760)
+0529.349 (0) The time we have been running (529.3) is approaching the resumption interval (558) - increasing resumption interval to 560
+0529.354 (0) Googledrive chunked upload: 65.5 % uploaded (11534336)
+0531.138 (0) The time we have been running (531.1) is approaching the resumption interval (560) - increasing resumption interval to 562
+0531.142 (0) Googledrive chunked upload: 71.5 % uploaded (12582912)
+0532.821 (0) The time we have been running (532.8) is approaching the resumption interval (562) - increasing resumption interval to 563
+0532.825 (0) Googledrive chunked upload: 77.5 % uploaded (13631488)
+0534.493 (0) The time we have been running (534.5) is approaching the resumption interval (563) - increasing resumption interval to 565
+0534.496 (0) Googledrive chunked upload: 83.4 % uploaded (14680064)
+0536.190 (0) The time we have been running (536.2) is approaching the resumption interval (565) - increasing resumption interval to 567
+0536.193 (0) Googledrive chunked upload: 89.4 % uploaded (15728640)
+0537.779 (0) The time we have been running (537.8) is approaching the resumption interval (567) - increasing resumption interval to 568
+0537.782 (0) Googledrive chunked upload: 95.3 % uploaded (16777216)
+0539.943 (0) The time we have been running (539.9) is approaching the resumption interval (568) - increasing resumption interval to 570
+0539.947 (0) Googledrive chunked upload: 100 % uploaded (16777216)
+0539.953 (0) OK: Archive backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-others2.zip uploaded to Google Drive in 29.94 seconds
+0539.957 (0) Recording as successfully uploaded: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-others2.zip (7bec39702c13aceeb00e46cb4b14e80f)
+0539.964 (0) Deleting local file: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-others2.zip: skipped: user has unchecked updraft_delete_local option
+0540.861 (0) Google Drive quota usage: used=3457.8 MB, total=15360 MB, available=11902.2 MB
+0540.862 (0) backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db.gz: Attempting to upload to Google Drive (into folder id: 0BywwjC8USFCzcmItS2VPODBwaU0)
+0543.022 (0) The time we have been running (543) is approaching the resumption interval (570) - increasing resumption interval to 574
+0543.025 (0) Googledrive chunked upload: 45.3 % uploaded (1048576)
+0544.759 (0) The time we have been running (544.8) is approaching the resumption interval (574) - increasing resumption interval to 575
+0544.763 (0) Googledrive chunked upload: 90.7 % uploaded (2097152)
+0546.292 (0) The time we have been running (546.3) is approaching the resumption interval (575) - increasing resumption interval to 577
+0546.295 (0) Googledrive chunked upload: 100 % uploaded (2097152)
+0546.302 (0) OK: Archive backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db.gz uploaded to Google Drive in 5.44 seconds
+0546.305 (0) Recording as successfully uploaded: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db.gz (3c855823f870dca2b3a370a434baacde)
+0546.311 (0) Deleting local file: backup_2018-04-26-1241_The_British_CBT_amp_Counsellin_-db.gz: skipped: user has unchecked updraft_delete_local option
+0546.315 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0546.317 (0) Number of backup sets in history: 2; groups (db): 1
+0546.319 (0) Examining (for databases) backup set with group_id=0, nonce=f1e34f4c815a, datestamp=1524742916 (Apr 26 2018 11:41:56)
+0546.320 (0) This backup set is the backup set just made, so will not be deleted.
+0546.320 (0) Examining (for databases) backup set with group_id=0, nonce=0a0adb465453, datestamp=1521711293 (Mar 22 2018 09:34:53)
+0546.321 (0) 1521711293: db: this set includes a database (backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-db.gz); db count is now 1
+0546.321 (0) 1521711293: db: over retain limit (1); will delete this database
+0546.321 (0) Delete file: backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-db.gz, service=googledrive
+0546.322 (0) Deleting local copy (backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-db.gz)
+0547.720 (0) backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-db.gz: Deletion successful
+0547.726 (0) The time we have been running (547.7) is approaching the resumption interval (577) - increasing resumption interval to 578
+0547.730 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0547.732 (0) Number of backup sets in history: 2; groups (files): 1
+0547.734 (0) Examining (for files) backup set with nonce=f1e34f4c815a, datestamp=1524742916 (Apr 26 2018 11:41:56)
+0547.734 (0) This backup set is the backup set just made, so will not be deleted.
+0547.735 (0) This backup set is the backup set just made, so will not be deleted.
+0547.735 (0) This backup set is the backup set just made, so will not be deleted.
+0547.735 (0) This backup set is the backup set just made, so will not be deleted.
+0547.735 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0547.736 (0) Examining (for files) backup set with nonce=0a0adb465453, datestamp=1521711293 (Mar 22 2018 09:34:53)
+0547.736 (0) plugins: over retain limit (1); will delete this file entity
+0547.736 (0) themes: over retain limit (1); will delete this file entity
+0547.736 (0) uploads: over retain limit (1); will delete this file entity
+0547.736 (0) others: over retain limit (1); will delete this file entity
+0547.736 (0) Delete file: backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-plugins.zip, service=googledrive
+0547.737 (0) Deleting local copy (backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-plugins.zip)
+0547.741 (0) Delete file: backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-plugins2.zip, service=googledrive
+0547.742 (0) Deleting local copy (backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-plugins2.zip)
+0547.744 (0) Delete file: backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-themes.zip, service=googledrive
+0547.745 (0) Deleting local copy (backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-themes.zip)
+0547.748 (0) Delete file: backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads.zip, service=googledrive
+0547.751 (0) Deleting local copy (backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads.zip)
+0547.754 (0) Delete file: backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads2.zip, service=googledrive
+0547.756 (0) Deleting local copy (backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads2.zip)
+0547.759 (0) Delete file: backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads3.zip, service=googledrive
+0547.762 (0) Deleting local copy (backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads3.zip)
+0547.765 (0) Delete file: backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads4.zip, service=googledrive
+0547.768 (0) Deleting local copy (backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads4.zip)
+0547.771 (0) Delete file: backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads5.zip, service=googledrive
+0547.772 (0) Deleting local copy (backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads5.zip)
+0547.774 (0) Delete file: backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads6.zip, service=googledrive
+0547.776 (0) Deleting local copy (backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads6.zip)
+0547.780 (0) Delete file: backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads7.zip, service=googledrive
+0547.784 (0) Deleting local copy (backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads7.zip)
+0547.787 (0) Delete file: backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads8.zip, service=googledrive
+0547.788 (0) Deleting local copy (backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads8.zip)
+0547.790 (0) Delete file: backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads9.zip, service=googledrive
+0547.791 (0) Deleting local copy (backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads9.zip)
+0547.793 (0) Delete file: backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-others.zip, service=googledrive
+0547.795 (0) Deleting local copy (backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-others.zip)
+0547.798 (0) Delete file: backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-others2.zip, service=googledrive
+0547.800 (0) Deleting local copy (backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-others2.zip)
+0549.432 (0) backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-others2.zip: Deletion successful
+0550.282 (0) backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-others.zip: Deletion successful
+0551.100 (0) backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads9.zip: Deletion successful
+0551.818 (0) backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads8.zip: Deletion successful
+0552.739 (0) backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads7.zip: Deletion successful
+0553.455 (0) backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads6.zip: Deletion successful
+0554.275 (0) backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads5.zip: Deletion successful
+0554.991 (0) backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads4.zip: Deletion successful
+0555.810 (0) backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads3.zip: Deletion successful
+0556.630 (0) backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads2.zip: Deletion successful
+0557.347 (0) backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-uploads.zip: Deletion successful
+0558.373 (0) backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-themes.zip: Deletion successful
+0559.024 (0) backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-plugins2.zip: Deletion successful
+0559.805 (0) backup_2018-03-22-0934_The_British_CBT_amp_Counsellin_0a0adb465453-plugins.zip: Deletion successful
+0559.811 (0) The time we have been running (559.8) is approaching the resumption interval (578) - increasing resumption interval to 590
+0559.814 (0) This backup set is now empty; will remove from history
+0559.814 (0) Deleting log file (log.0a0adb465453.txt)
+0559.817 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0559.822 (0) Resume backup (f1e34f4c815a, 0): finish run
+0559.824 (0) Decremented the semaphore (fd) by 1
+0559.826 (0) Semaphore (fd) unlocked
+0559.826 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0559.831 (0) No email will/can be sent - the user has not configured an email address.
+0559.832 (0) The backup apparently succeeded and is now complete

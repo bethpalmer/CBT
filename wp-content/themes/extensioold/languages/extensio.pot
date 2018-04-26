@@ -1,0 +1,269 @@
+"Project-Id-Version: Extensio v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-14 01:00+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: all inner pages
+msgid "Click or type here to search"
+msgstr ""
+
+#: 404.php
+msgid "ERROR 404 - Not Found"
+msgstr ""
+
+#: 404.php
+msgid "ERROR 404"
+msgstr ""
+
+#: 404.php
+msgid "We are sorry, but the page you were looking for doesn't exist."
+msgstr ""
+
+#: archives.php
+msgid "Archives"
+msgstr ""
+
+
+#: archives.php, blog-layout-2.php, blog-layout-4.php, search.php
+msgid "by"
+msgstr ""
+
+#: archives.php, blog-layout-1.php, blog-layout-2.php, blog-layout-3.php, blog-layout-4.php, search.php
+msgid "Read more ..."
+msgstr ""
+
+#: archives.php, search.php
+msgid "<h2>Nothing Found</h2>"
+msgstr ""
+
+#: archives.php
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archives.php
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archives.php
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archives.php
+msgid "Category Archives: %s"
+msgstr ""
+
+#: archives.php
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: archives.php
+msgid "Author Archives: %s"
+msgstr ""
+
+#: archives.php, blog-layout-1.php, blog-layout-2.php, blog-layout-3.php, blog-layout-4.php, search.php
+msgid "0 Comments"
+msgstr ""
+
+#: archives.php, blog-layout-1.php, blog-layout-2.php, blog-layout-3.php, blog-layout-4.php, search.php
+msgid "1 Comment"
+msgstr ""
+
+#: archives.php, blog-layout-1.php, blog-layout-2.php, blog-layout-3.php, blog-layout-4.php, search.php
+msgid "% Comments"
+msgstr ""
+
+#: archives.php, search.php
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: blog-layout-1.php, blog-layout-3.php, blog-layout-4.php, single.php
+msgid "Share on Twitter"
+msgstr ""
+
+#: blog-layout-1.php, blog-layout-3.php, blog-layout-4.php, single.php
+msgid "Share on Facebook"
+msgstr ""
+
+#: comments.php
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php
+msgid "add yours"
+msgstr ""
+
+#: comments.php
+msgid "<span class='meta-nav'>&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php
+msgid "Newer Comments <span class='meta-nav'>&rarr;</span>"
+msgstr ""
+
+#: contact1.php, contact2.php
+msgid "Find us on map"
+msgstr ""
+
+#: contact1.php, contact2.php
+msgid "Send us a message"
+msgstr ""
+
+#: contact1.php, contact2.php, functions.php, functions/shortcodes.php
+msgid "Your Name"
+msgstr ""
+
+#: contact1.php, contact2.php, functions.php, functions/shortcodes.php
+msgid "Your Email"
+msgstr ""
+
+#: contact1.php, contact2.php
+msgid "Your Subject"
+msgstr ""
+
+#: contact1.php, contact2.php, functions/shortcodes.php
+msgid "Your Message"
+msgstr ""
+
+#: contact1.php, contact2.php
+msgid "reCAPTCHA"
+msgstr ""
+
+#: contact1.php, contact2.php
+msgid "Send Email"
+msgstr ""
+
+#: contact1.php, contact2.php
+msgid "<strong>Wrong reCAPTCHA word!</strong><br />Please click Back in the browser and enter a valid reCAPTCHA."
+msgstr ""
+
+#: contact1.php, contact2.php
+msgid "Congratulations!"
+msgstr ""
+
+#: contact1.php, contact2.php
+msgid "Thank you. Your message is sent. I will get back to you as soon as possible."
+msgstr ""
+
+#: contact1.php, contact2.php
+msgid "Error!"
+msgstr ""
+
+#: contact1.php, contact2.php
+msgid "Sorry, your message failed to send. Try later."
+msgstr ""
+
+#: contact1.php, contact2.php
+msgid "From:"
+msgstr ""
+
+#: contact1.php, contact2.php
+msgid "Email:"
+msgstr ""
+
+#: contact1.php, contact2.php
+msgid "Subject:"
+msgstr ""
+
+#: contact1.php, contact2.php
+msgid "---Message---"
+msgstr ""
+
+#: contact1.php, contact2.php
+msgid "---User information---"
+msgstr ""
+
+#: contact1.php, contact2.php
+msgid "User IP:"
+msgstr ""
+
+#: contact1.php, contact2.php
+msgid "Browser info:"
+msgstr ""
+
+#: contact1.php, contact2.php
+msgid "User come from:"
+msgstr ""
+
+#: portfolio-one.php, portfolio-two.php, portfolio-three.php, portfolio-four.php, portfolio-three-sortable.php
+msgid "zoom"
+msgstr ""
+
+#: portfolio-two.php, portfolio-three.php, portfolio-four.php, portfolio-three-sortable.php
+msgid "link"
+msgstr ""
+
+#: search.php
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php
+msgid "Tags:"
+msgstr ""
+
+#: single-portfolio.php
+msgid "No portfolio items found."
+msgstr ""
+
+#: functions.php
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php
+msgid "Leave a Comment"
+msgstr ""
+
+#: functions.php
+msgid "Post"
+msgstr ""
+
+#: functions.php
+msgid "Your Website"
+msgstr ""
+
+#: functions.php
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: functions.php
+msgid "Cancel reply"
+msgstr ""
+
+#: functions.php
+msgid "Submit Comment &raquo;"
+msgstr ""
+
+#: functions.php
+msgid "Home"
+msgstr ""
+
+#: fumctiions/shortcodes.php
+msgid "Comments"
+msgstr ""
+
+#: fumctiions/shortcodes.php
+msgid "Comment"
+msgstr ""
+
+#: fumctiions/shortcodes.php
+msgid "Read more"
+msgstr ""
+
+#: fumctiions/shortcodes.php
+msgid "Send"
+msgstr ""
+
+#: fumctiions/shortcodes.php
+msgid "Email address ..."
+msgstr ""
+
+#: fumctiions/widget-newsletter-subscribe.php
+msgid "Enter your email here"
+msgstr ""

@@ -1,0 +1,16 @@
+*** Changelog ***
+
+
+
+Version 1.1  (released 18 May 2012)
+	* Was fixed the pot file.
+	* Was fixed a litle bug in OneByOne slider description.
+	* Was fixed the feedburner newsletter widget
+
+	Was modified files:
+	* languages/extensio.pot
+	* functions/slider-functions.php
+	* functions/widget-newsletter-subscribe.php
+
+
+Version 1.0  (released 16 May 2012)

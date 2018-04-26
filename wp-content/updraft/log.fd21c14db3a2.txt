@@ -1,0 +1,296 @@
+0000.007 () Opened log file at time: Fri, 29 Sep 2017 13:20:11 +0000 on http://localhost:8888/CHRAVE1
+0000.007 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.13.11.1 WP: 4.8.2 PHP: 7.1.6 (apache2handler, Darwin MacBook-Pro.local 15.6.0 Darwin Kernel Version 15.6.0: Sun Jun  4 21:43:07 PDT 2017; root:xnu-3248.70.3~1/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_GB Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.6 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 24.5M | 14M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.007 () Free space on disk containing Updraft's temporary directory: 14316.1 MB
+0000.009 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":true,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.043 () Entity: db
+0000.043 () restore_backup(backup_file=backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-db.gz, type=db, info=a:0:{}, last_one=)
+0000.044 () Unpacking backup... (backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-db.gz, 2.4 Mb)
+0000.055 () Database successfully unpacked
+0000.058 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.059 () Using direct MySQL access; value of use_mysqli is: 1
+0000.088 () Max packet size: 32 MB
+0000.088 () Entering maintenance mode
+0000.088 () Enabling Maintenance mode&#8230;
+0000.090 () Backup of: http://cbt.knibbshost.co.uk
+0000.123 () Content URL: http://cbt.knibbshost.co.uk/wp-content
+0000.123 () Uploads URL: http://cbt.knibbshost.co.uk/wp-content/uploads
+0000.124 () Old table prefix: RYs8N_
+0000.124 () Site information: multisite=0
+0000.126 () New table prefix: wp_
+0000.129 () Processing table (MyISAM): RYs8N_options - will restore as: wp_options
+0000.373 () Restoring prior UD configuration (table: wp_options; keys: 90)
+0000.539 () Table prefix has changed: changing options table field(s) accordingly (options)
+0000.540 () Options table fields changed OK
+0000.550 () Search and replacing table: wp_options: rows: 746
+0000.657 () Processing table (MyISAM): RYs8N_users - will restore as: wp_users
+0000.687 () Search and replacing table: wp_users: rows: 51
+0000.693 () Processing table (MyISAM): RYs8N_usermeta - will restore as: wp_usermeta
+0000.742 () Table prefix has changed: changing usermeta table field(s) accordingly
+0000.757 () Usermeta table fields changed OK
+0000.759 () Search and replacing table: wp_usermeta: rows: 1005
+0000.805 () Processing table (MyISAM): RYs8N_commentmeta - will restore as: wp_commentmeta
+0000.870 () Search and replacing table: wp_commentmeta: rows: 434
+0000.905 () Processing table (MyISAM): RYs8N_comments - will restore as: wp_comments
+0000.927 () Search and replacing table: wp_comments: rows: 19
+0000.930 () Processing table (MyISAM): RYs8N_links - will restore as: wp_links
+0000.951 () Search and replacing table: wp_links: rows: 7
+0000.952 () Processing table (MyISAM): RYs8N_postmeta - will restore as: wp_postmeta
+0008.920 () Database queries processed: 50 in 8.86 seconds
+0008.995 () Search and replacing table: wp_postmeta: rows: 219
+0009.074 () Processing table (MyISAM): RYs8N_posts - will restore as: wp_posts
+0009.535 () Skipping search/replace on GUID column in posts table
+0009.535 () Search and replacing table: wp_posts: rows: 1508
+0009.756 () Processing table (MyISAM): RYs8N_term_relationships - will restore as: wp_term_relationships
+0009.803 () Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0009.804 () Processing table (MyISAM): RYs8N_term_taxonomy - will restore as: wp_term_taxonomy
+0009.828 () Search and replacing table: wp_term_taxonomy: rows: 100
+0009.833 () Processing table (MyISAM): RYs8N_termmeta - will restore as: wp_termmeta
+0009.853 () Search and replacing table: wp_termmeta: rows: 0
+0009.854 () Processing table (MyISAM): RYs8N_terms - will restore as: wp_terms
+0009.877 () Search and replacing table: wp_terms: rows: 100
+0009.881 () Processing table (MyISAM): RYs8N_ak_twitter - will restore as: wp_ak_twitter
+0009.901 () Search and replacing table: wp_ak_twitter: rows: 43
+0009.904 () Processing table (MyISAM): RYs8N_auto_updates - will restore as: wp_auto_updates
+0009.922 () Search and replacing table: wp_auto_updates: rows: 10
+0009.923 () Processing table (MyISAM): RYs8N_gallery_albums - will restore as: wp_gallery_albums
+0009.940 () Search and replacing table: wp_gallery_albums: rows: 11
+0009.941 () Processing table (MyISAM): RYs8N_gallery_licensing - will restore as: wp_gallery_licensing
+0009.961 () Search and replacing table: wp_gallery_licensing: rows: 1
+0009.962 () Processing table (MyISAM): RYs8N_gallery_pics - will restore as: wp_gallery_pics
+0009.985 () Search and replacing table: wp_gallery_pics: rows: 33
+0009.989 () Processing table (MyISAM): RYs8N_gallery_settings - will restore as: wp_gallery_settings
+0010.011 () Search and replacing table: wp_gallery_settings: rows: 82
+0010.014 () Processing table (MyISAM): RYs8N_search_filter_cache - will restore as: wp_search_filter_cache
+0010.645 () Search and replacing table: wp_search_filter_cache: rows: 1616
+0010.717 () Processing table (MyISAM): RYs8N_search_filter_term_results - will restore as: wp_search_filter_term_results
+0010.744 () Search and replacing table: wp_search_filter_term_results: rows: 61
+0010.748 () Processing table (MyISAM): RYs8N_slp_extendo_meta - will restore as: wp_slp_extendo_meta
+0010.766 () Search and replacing table: wp_slp_extendo_meta: rows: 0
+0010.766 () Processing table (MyISAM): RYs8N_store_locator - will restore as: wp_store_locator
+0010.783 () Database queries processed: 100 in 10.72 seconds
+0010.786 () Search and replacing table: wp_store_locator: rows: 0
+0010.786 () Processing table (InnoDB): RYs8N_vspfw - will restore as: wp_vspfw
+0010.812 () Search and replacing table: wp_vspfw: rows: 6
+0010.813 () Processing table (MyISAM): RYs8N_wfBadLeechers - will restore as: wp_wfBadLeechers
+0010.837 () Search and replacing table: wp_wfBadLeechers: rows: 0
+0010.837 () Processing table (MyISAM): RYs8N_wfBlockedCommentLog - will restore as: wp_wfBlockedCommentLog
+0010.857 () Search and replacing table: wp_wfBlockedCommentLog: rows: 0
+0010.857 () Processing table (MyISAM): RYs8N_wfBlockedIPLog - will restore as: wp_wfBlockedIPLog
+0010.907 () Search and replacing table: wp_wfBlockedIPLog: rows: 914
+0010.952 () Processing table (MyISAM): RYs8N_wfBlocks - will restore as: wp_wfBlocks
+0010.974 () Search and replacing table: wp_wfBlocks: rows: 0
+0010.974 () Processing table (MyISAM): RYs8N_wfBlocksAdv - will restore as: wp_wfBlocksAdv
+0010.990 () Search and replacing table: wp_wfBlocksAdv: rows: 0
+0010.990 () Processing table (MyISAM): RYs8N_wfConfig - will restore as: wp_wfConfig
+0011.061 () Search and replacing table: wp_wfConfig: rows: 211
+0011.089 () Processing table (MyISAM): RYs8N_wfCrawlers - will restore as: wp_wfCrawlers
+0011.112 () Search and replacing table: wp_wfCrawlers: rows: 10
+0011.114 () Processing table (MyISAM): RYs8N_wfFileMods - will restore as: wp_wfFileMods
+0011.626 () Search and replacing table: wp_wfFileMods: rows: 7038
+0011.998 () Searching and replacing reached row: 5000
+0012.156 () Processing table (MyISAM): RYs8N_wfHits - will restore as: wp_wfHits
+0012.368 () Skipping this table: data in this table (wp_wfHits) should not be search/replaced
+0012.368 () Processing table (MyISAM): RYs8N_wfHoover - will restore as: wp_wfHoover
+0012.386 () Search and replacing table: wp_wfHoover: rows: 0
+0012.386 () Processing table (MyISAM): RYs8N_wfIssues - will restore as: wp_wfIssues
+0012.403 () Search and replacing table: wp_wfIssues: rows: 24
+0012.407 () Processing table (MyISAM): RYs8N_wfKnownFileList - will restore as: wp_wfKnownFileList
+0012.664 () Search and replacing table: wp_wfKnownFileList: rows: 7038
+0012.786 () Searching and replacing reached row: 5000
+0012.835 () Processing table (MyISAM): RYs8N_wfLeechers - will restore as: wp_wfLeechers
+0012.847 () Database queries processed: 150 in 12.79 seconds
+0012.851 () Search and replacing table: wp_wfLeechers: rows: 13
+0012.852 () Processing table (MyISAM): RYs8N_wfLockedOut - will restore as: wp_wfLockedOut
+0012.867 () Search and replacing table: wp_wfLockedOut: rows: 1
+0012.867 () Processing table (MyISAM): RYs8N_wfLocs - will restore as: wp_wfLocs
+0012.883 () Search and replacing table: wp_wfLocs: rows: 1
+0012.884 () Processing table (MyISAM): RYs8N_wfLogins - will restore as: wp_wfLogins
+0012.952 () Search and replacing table: wp_wfLogins: rows: 808
+0013.015 () Processing table (MyISAM): RYs8N_wfNet404s - will restore as: wp_wfNet404s
+0013.036 () Search and replacing table: wp_wfNet404s: rows: 0
+0013.036 () Processing table (MyISAM): RYs8N_wfNotifications - will restore as: wp_wfNotifications
+0013.059 () Search and replacing table: wp_wfNotifications: rows: 63
+0013.065 () Processing table (MyISAM): RYs8N_wfPendingIssues - will restore as: wp_wfPendingIssues
+0013.085 () Search and replacing table: wp_wfPendingIssues: rows: 2
+0013.086 () Processing table (MyISAM): RYs8N_wfReverseCache - will restore as: wp_wfReverseCache
+0013.105 () Search and replacing table: wp_wfReverseCache: rows: 11
+0013.106 () Processing table (MyISAM): RYs8N_wfSNIPCache - will restore as: wp_wfSNIPCache
+0013.125 () Search and replacing table: wp_wfSNIPCache: rows: 2
+0013.125 () Processing table (MyISAM): RYs8N_wfScanners - will restore as: wp_wfScanners
+0013.144 () Search and replacing table: wp_wfScanners: rows: 0
+0013.144 () Processing table (MyISAM): RYs8N_wfStatus - will restore as: wp_wfStatus
+0013.215 () Search and replacing table: wp_wfStatus: rows: 1191
+0013.271 () Processing table (MyISAM): RYs8N_wfThrottleLog - will restore as: wp_wfThrottleLog
+0013.289 () Search and replacing table: wp_wfThrottleLog: rows: 0
+0013.289 () Processing table (MyISAM): RYs8N_wfVulnScanners - will restore as: wp_wfVulnScanners
+0013.304 () Search and replacing table: wp_wfVulnScanners: rows: 0
+0013.304 () Processing table (InnoDB): RYs8N_wpgmza - will restore as: wp_wpgmza
+0013.323 () Search and replacing table: wp_wpgmza: rows: 11
+0013.325 () Processing table (InnoDB): RYs8N_wpgmza_categories - will restore as: wp_wpgmza_categories
+0013.347 () Search and replacing table: wp_wpgmza_categories: rows: 0
+0013.347 () Processing table (InnoDB): RYs8N_wpgmza_category_maps - will restore as: wp_wpgmza_category_maps
+0013.370 () Search and replacing table: wp_wpgmza_category_maps: rows: 0
+0013.371 () Processing table (InnoDB): RYs8N_wpgmza_datasets - will restore as: wp_wpgmza_datasets
+0013.398 () Search and replacing table: wp_wpgmza_datasets: rows: 0
+0013.398 () Processing table (InnoDB): RYs8N_wpgmza_maps - will restore as: wp_wpgmza_maps
+0013.425 () Search and replacing table: wp_wpgmza_maps: rows: 1
+0013.426 () Processing table (InnoDB): RYs8N_wpgmza_polygon - will restore as: wp_wpgmza_polygon
+0013.449 () Search and replacing table: wp_wpgmza_polygon: rows: 0
+0013.449 () Processing table (InnoDB): RYs8N_wpgmza_polylines - will restore as: wp_wpgmza_polylines
+0013.466 () Database queries processed: 200 in 13.41 seconds
+0013.470 () Search and replacing table: wp_wpgmza_polylines: rows: 0
+0013.470 () Processing table (InnoDB): RYs8N_xyz_smap_addons - will restore as: wp_xyz_smap_addons
+0013.490 () Search and replacing table: wp_xyz_smap_addons: rows: 0
+0013.490 () Processing table (InnoDB): RYs8N_xyz_smap_fb_details - will restore as: wp_xyz_smap_fb_details
+0013.523 () Search and replacing table: wp_xyz_smap_fb_details: rows: 1
+0013.524 () Processing table (InnoDB): RYs8N_xyz_smap_gp_details - will restore as: wp_xyz_smap_gp_details
+0013.545 () Search and replacing table: wp_xyz_smap_gp_details: rows: 0
+0013.545 () Processing table (InnoDB): RYs8N_xyz_smap_ln_details - will restore as: wp_xyz_smap_ln_details
+0013.570 () Search and replacing table: wp_xyz_smap_ln_details: rows: 0
+0013.570 () Processing table (InnoDB): RYs8N_xyz_smap_pi_details - will restore as: wp_xyz_smap_pi_details
+0013.597 () Search and replacing table: wp_xyz_smap_pi_details: rows: 0
+0013.597 () Processing table (InnoDB): RYs8N_xyz_smap_tasks - will restore as: wp_xyz_smap_tasks
+0013.619 () Search and replacing table: wp_xyz_smap_tasks: rows: 32
+0013.623 () Processing table (InnoDB): RYs8N_xyz_smap_tw_details - will restore as: wp_xyz_smap_tw_details
+0013.638 () Unlocking database and leaving maintenance mode
+0013.638 () Disabling Maintenance mode&#8230;
+0013.640 () Search and replacing table: wp_xyz_smap_tw_details: rows: 1
+0013.641 () Finished: lines processed: 220 in 13.58 seconds
+0013.641 () Cleaning up rubbish...
+0013.642 () Begin search and replace (updraftplus_restored_db)
+0013.642 () [Database-replace-site-url] Database: search and replace site URL
+0013.642 () Restored pre-migration site ID for this installation
+0013.653 () Warning: the database's home URL (http://localhost:8888/CHRAVE1/) is different to what we expected (http://cbt.knibbshost.co.uk)
+0013.653 () Database search and replace: replace http://cbt.knibbshost.co.uk in backup dump with http://localhost:8888/CHRAVE1
+0013.654 () Search and replacing table: wp_ak_twitter: already done
+0013.654 () Search and replacing table: wp_auto_updates: already done
+0013.654 () Search and replacing table: wp_commentmeta: already done
+0013.654 () Search and replacing table: wp_comments: already done
+0013.654 () Search and replacing table: wp_gallery_albums: already done
+0013.654 () Search and replacing table: wp_gallery_licensing: already done
+0013.654 () Search and replacing table: wp_gallery_pics: already done
+0013.654 () Search and replacing table: wp_gallery_settings: already done
+0013.654 () Search and replacing table: wp_links: already done
+0013.654 () Search and replacing table: wp_options: already done
+0013.655 () Search and replacing table: wp_postmeta: already done
+0013.655 () Search and replacing table: wp_posts: already done
+0013.655 () Search and replacing table: wp_search_filter_cache: already done
+0013.655 () Search and replacing table: wp_search_filter_term_results: already done
+0013.655 () Search and replacing table: wp_slp_extendo_meta: already done
+0013.655 () Search and replacing table: wp_store_locator: already done
+0013.655 () Search and replacing table: wp_term_relationships: already done
+0013.655 () Search and replacing table: wp_term_taxonomy: already done
+0013.655 () Search and replacing table: wp_termmeta: already done
+0013.655 () Search and replacing table: wp_terms: already done
+0013.655 () Search and replacing table: wp_usermeta: already done
+0013.655 () Search and replacing table: wp_users: already done
+0013.655 () Search and replacing table: wp_vspfw: already done
+0013.655 () Search and replacing table: wp_wfBadLeechers: already done
+0013.655 () Search and replacing table: wp_wfBlockedCommentLog: already done
+0013.655 () Search and replacing table: wp_wfBlockedIPLog: already done
+0013.655 () Search and replacing table: wp_wfBlocks: already done
+0013.655 () Search and replacing table: wp_wfBlocksAdv: already done
+0013.655 () Search and replacing table: wp_wfConfig: already done
+0013.656 () Search and replacing table: wp_wfCrawlers: already done
+0013.656 () Search and replacing table: wp_wfFileMods: already done
+0013.656 () Search and replacing table: wp_wfHits: already done
+0013.656 () Search and replacing table: wp_wfHoover: already done
+0013.656 () Search and replacing table: wp_wfIssues: already done
+0013.656 () Search and replacing table: wp_wfKnownFileList: already done
+0013.656 () Search and replacing table: wp_wfLeechers: already done
+0013.656 () Search and replacing table: wp_wfLockedOut: already done
+0013.656 () Search and replacing table: wp_wfLocs: already done
+0013.656 () Search and replacing table: wp_wfLogins: already done
+0013.656 () Search and replacing table: wp_wfNet404s: already done
+0013.656 () Search and replacing table: wp_wfNotifications: already done
+0013.656 () Search and replacing table: wp_wfPendingIssues: already done
+0013.656 () Search and replacing table: wp_wfReverseCache: already done
+0013.656 () Search and replacing table: wp_wfSNIPCache: already done
+0013.656 () Search and replacing table: wp_wfScanners: already done
+0013.656 () Search and replacing table: wp_wfStatus: already done
+0013.656 () Search and replacing table: wp_wfThrottleLog: already done
+0013.656 () Search and replacing table: wp_wfVulnScanners: already done
+0013.656 () Search and replacing table: wp_wpgmza: already done
+0013.657 () Search and replacing table: wp_wpgmza_categories: already done
+0013.657 () Search and replacing table: wp_wpgmza_category_maps: already done
+0013.657 () Search and replacing table: wp_wpgmza_datasets: already done
+0013.657 () Search and replacing table: wp_wpgmza_maps: already done
+0013.657 () Search and replacing table: wp_wpgmza_polygon: already done
+0013.657 () Search and replacing table: wp_wpgmza_polylines: already done
+0013.657 () Search and replacing table: wp_xyz_smap_addons: already done
+0013.657 () Search and replacing table: wp_xyz_smap_fb_details: already done
+0013.657 () Search and replacing table: wp_xyz_smap_gp_details: already done
+0013.657 () Search and replacing table: wp_xyz_smap_ln_details: already done
+0013.657 () Search and replacing table: wp_xyz_smap_pi_details: already done
+0013.657 () Search and replacing table: wp_xyz_smap_tasks: already done
+0013.657 () Search and replacing table: wp_xyz_smap_tw_details: already done
+0013.661 () Entity: plugins
+0013.661 () restore_backup(backup_file=backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:54:"/Users/Beth/Sites/wordpress/CHRAVE1/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0013.661 () Unpacking backup... (backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-plugins.zip, 21 Mb)
+0015.377 () Moving old data: filesystem method / updraft_dir is potentially possible
+0015.377 () Moving old data: can potentially use wp_filesystem method / -old
+0015.378 () Moving old data out of the way...
+0015.853 () Top-level entities being moved: akismet, hello.php, index.php, updraftplus
+0015.854 () Moving unpacked backup into place...
+0017.036 () Top-level entities being moved: _notes, akismet, all-in-one-seo-pack, asynchronous-javascript, auto-featured-image, autoset-featured-image, bulk-comments-management, companion-auto-update, contact-form-7, custom-field-bulk-editor, duplicate-post, envira-gallery-lite, index.php, menu-limit-detector-master, rvg-optimize-database, search-and-replace, search-filter-pro, simple-301-redirects, simple-301-redirects-addon-bulk-uploader, updraftplus, very-simple-password, w3-total-cache, wordfence, wp-boilerplate-shortcode, wp-google-maps, wp-google-maps-pro, wp-jump-menu, wp-title-case, xyz-wp-smap
+0017.042 () Cleaning up rubbish...
+0017.044 () Entity: themes
+0017.044 () restore_backup(backup_file=backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-themes.zip, type=themes, info=a:2:{s:4:"path";s:53:"/Users/Beth/Sites/wordpress/CHRAVE1/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0017.045 () Unpacking backup... (backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-themes.zip, 3.3 Mb)
+0017.379 () Moving old data: filesystem method / updraft_dir is potentially possible
+0017.379 () Moving old data: can potentially use wp_filesystem method / -old
+0017.379 () Moving old data out of the way...
+0017.425 () Top-level entities being moved: index.php, twentyfifteen, twentyseventeen, twentysixteen
+0017.426 () Moving unpacked backup into place...
+0017.735 () Top-level entities being moved: _notes, extensio, extensioold, index.php
+0017.736 () Cleaning up rubbish...
+0017.738 () Entity: uploads
+0017.738 () restore_backup(backup_file=backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/Users/Beth/Sites/wordpress/CHRAVE1/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0017.738 () Unpacking backup... (backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-uploads.zip, 24.8 Mb)
+0018.468 () Moving old data: filesystem method / updraft_dir is potentially possible
+0018.468 () Moving old data: can potentially use wp_filesystem method / -old
+0018.468 () Moving old data out of the way...
+0018.469 () Moving unpacked backup into place...
+0018.755 () Cleaning up rubbish...
+0018.756 () restore_backup(backup_file=backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-uploads2.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/Users/Beth/Sites/wordpress/CHRAVE1/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0018.756 () Unpacking backup... (backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-uploads2.zip, 24.1 Mb)
+0019.461 () Moving unpacked backup into place...
+0019.801 () Cleaning up rubbish...
+0019.803 () restore_backup(backup_file=backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-uploads3.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/Users/Beth/Sites/wordpress/CHRAVE1/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0019.803 () Unpacking backup... (backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-uploads3.zip, 24.2 Mb)
+0020.859 () Moving unpacked backup into place...
+0021.327 () Cleaning up rubbish...
+0021.328 () restore_backup(backup_file=backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-uploads4.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/Users/Beth/Sites/wordpress/CHRAVE1/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0021.328 () Unpacking backup... (backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-uploads4.zip, 24.7 Mb)
+0022.588 () Moving unpacked backup into place...
+0023.574 () Cleaning up rubbish...
+0023.576 () restore_backup(backup_file=backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-uploads5.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/Users/Beth/Sites/wordpress/CHRAVE1/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0023.577 () Unpacking backup... (backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-uploads5.zip, 24.2 Mb)
+0024.568 () Moving unpacked backup into place...
+0024.952 () Cleaning up rubbish...
+0024.953 () restore_backup(backup_file=backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-uploads6.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/Users/Beth/Sites/wordpress/CHRAVE1/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0024.953 () Unpacking backup... (backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-uploads6.zip, 24.5 Mb)
+0025.748 () Moving unpacked backup into place...
+0026.192 () Cleaning up rubbish...
+0026.193 () restore_backup(backup_file=backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-uploads7.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/Users/Beth/Sites/wordpress/CHRAVE1/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0026.193 () Unpacking backup... (backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-uploads7.zip, 24.2 Mb)
+0027.030 () Moving unpacked backup into place...
+0027.599 () Cleaning up rubbish...
+0027.600 () restore_backup(backup_file=backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-uploads8.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/Users/Beth/Sites/wordpress/CHRAVE1/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0027.600 () Unpacking backup... (backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-uploads8.zip, 23.8 Mb)
+0028.148 () Moving unpacked backup into place...
+0028.426 () Cleaning up rubbish...
+0028.428 () restore_backup(backup_file=backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-uploads9.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/Users/Beth/Sites/wordpress/CHRAVE1/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0028.428 () Unpacking backup... (backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-uploads9.zip, 4.9 Mb)
+0028.569 () Moving unpacked backup into place...
+0028.611 () Cleaning up rubbish...
+0028.613 () Entity: others
+0028.613 () restore_backup(backup_file=backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-others.zip, type=others, info=a:2:{s:4:"path";s:46:"/Users/Beth/Sites/wordpress/CHRAVE1/wp-content";s:11:"description";s:6:"Others";}, last_one=)
+0028.613 () Unpacking backup... (backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-others.zip, 25.4 Mb)
+0029.058 () Cleaning up rubbish...
+0029.058 () Error: Failed to delete working directory after restoring. (/Users/Beth/Sites/wordpress/CHRAVE1/wp-content/upgrade/3059a12e)
+0029.061 () restore_backup(backup_file=backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-others2.zip, type=others, info=a:2:{s:4:"path";s:46:"/Users/Beth/Sites/wordpress/CHRAVE1/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0029.061 () Unpacking backup... (backup_2017-09-29-1110_The_British_CBT_amp_Counsellin_c6568f9576fa-others2.zip, 16.1 Mb)
+0029.480 () Cleaning up rubbish...
+0029.487 () Restore successful!
+0029.487 () Restore successful
